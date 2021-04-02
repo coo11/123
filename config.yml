@@ -18,6 +18,9 @@ bookmark:
   - name: QQ邮箱
     url: https://mail.qq.com/
     favicon: qqmail.png
+  - name: Outlook
+    url: https://outlook.live.com/mail/0/inbox
+    favicon: outlook.png
   - name: YandexMail
     url: https://mail.yandex.com/
     favicon: yandexmail.png
@@ -36,9 +39,6 @@ bookmark:
   - name: Telegram
     url: https://web.telegram.org/
     favicon: telegram.png
-  - name: Inoreader
-    url: https://jp.inoreader.com/language/chinese-simplified
-    favicon: inoreader.png
   - name: 坚果云
     url: https://www.jianguoyun.com/
     favicon: jianguoyun.png
@@ -198,6 +198,9 @@ bookmark:
   - name: Textnow
     url: https://www.textnow.com/messaging
     favicon: textnow.png
+  - name: Inoreader
+    url: https://jp.inoreader.com/language/chinese-simplified
+    favicon: inoreader.png
   - name: UnicodeTable
     url: https://unicode-table.com/cn/
     favicon: unicodetable.png
