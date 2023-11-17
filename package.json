@@ -1,0 +1,21 @@
+{
+  "name": "123",
+  "version": "2.0.0",
+  "description": "coo11's personal front page",
+  "scripts": {
+    "build": "del style.css index.html sprite.png /Q /F >NUL 2>&1 && rollup -c && del style.css index.html sprite.png /Q /F >NUL 2>&1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "clean-css": "^5.3.2",
+    "js-yaml": "^4.1.0",
+    "rollup": "^4.3.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "spritesmith": "^3.4.1"
+  }
+}
