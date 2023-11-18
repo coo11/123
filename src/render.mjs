@@ -57,10 +57,10 @@ ${icon}<span>${name}</span>
           </div>
           <input class="Q" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" autofocus="off" tabindex="1" />
           <div class="R" tabindex="3" style="display: none">
-            <svg class="O"><use xlink:href="#svg-clear"></use></svg>
+            <svg class="N"><use xlink:href="#svg-clear"></use></svg>
           </div>
           <button class="T" type="submit" tabindex="2">
-            <svg class="O"><use xlink:href="#svg-magnifier"></use></svg>
+            <svg class="N"><use xlink:href="#svg-magnifier"></use></svg>
           </button>
         </form>
       </div>

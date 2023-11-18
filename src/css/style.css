@@ -226,21 +226,21 @@ footer a {
 }
 
 .N {
-    opacity: .64;
-    margin-left: 6px;
-    font-size: 10px;
-}
-
-.N:hover {
-    opacity: .88;
-}
-
-.O {
     width: 1em;
     height: 1em;
     vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
+}
+
+.O {
+    opacity: .64;
+    margin-left: 6px;
+    font-size: 10px;
+}
+
+.O:hover {
+    opacity: .88;
 }
 
 .Q {
@@ -428,7 +428,7 @@ footer a {
         height: 22px;
     }
 
-    .N {
+    .O {
         margin-left: 4px;
         font-size: 8px;
     }
