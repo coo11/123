@@ -176,12 +176,21 @@ import autoComplete from "./autoComplete";
       this.switchIcon(icon);
     },
     switchIcon(icon) {
-      const iconEl = document.querySelector("img.N");
-      iconEl.src = `assets/search/${icon}`;
+      const use = document.querySelector("svg.N > use");
+      use.setAttribute("xlink:href", "assets/sprite.svg#" + icon.slice(0, -4));
     },
     dash(query) {
       const { prefix } = this.currentEngine;
       window.open(prefix + encodeURIComponent(query), "_blank");
+    },
+    itemContent({ icon, name, shortcut }) {
+      const id = icon.slice(0, -4);
+      return (
+        '<div class="ba">' +
+        `<svg class="ca"><use xlink:href="assets/sprite.svg#${id}"></use></svg>` +
+        `<span class="da">${name}</span>` +
+        `</div><div class="ea">${shortcut}</div>`
+      );
     }
   };
 
@@ -202,12 +211,7 @@ import autoComplete from "./autoComplete";
     resultItem: {
       class: "aa",
       element: (item, data) => {
-        const { icon, name, shortcut } = data.value;
-        item.innerHTML = `<div class="ba">
-      <img class="ca" src="assets/search/${icon}" />
-      <span class="da">${name}</span>
-    </div>
-    <div class="ea">${shortcut}</div>`;
+        item.innerHTML = searchEngineConfig.itemContent(data.value);
       },
       selected: "ha"
     }
@@ -271,12 +275,7 @@ import autoComplete from "./autoComplete";
     resultItem: {
       element: (item, data) => {
         if (data.value.hasOwnProperty("shortcut")) {
-          const { icon, name, shortcut } = data.value;
-          item.innerHTML = `<div class="ba">
-      <img class="ca" src="assets/search/${icon}" />
-      <span class="da">${name}</span>
-    </div>
-    <div class="ea">${shortcut}</div>`;
+          item.innerHTML = searchEngineConfig.itemContent(data.value);
         } else {
           item.innerHTML = data.value;
         }

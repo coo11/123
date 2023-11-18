@@ -51,7 +51,7 @@ ${icon}<span>${name}</span>
       <div class="K">
         <form class="L">
           <div class="M">
-            <img class="N" src="assets/search/icon/baidu.svg" />
+            <svg class="N"><use xlink:href="assets/sprite.svg#baidu"></use></svg>
             <svg class="svg O"><use xlink:href="#svg-toggle"></use></svg>
             <input class="P" style="width: 0; height: 0" inputmode="none" />
           </div>
