@@ -176,7 +176,7 @@ import autoComplete from "./autoComplete";
       this.switchIcon(icon);
     },
     switchIcon(icon) {
-      const use = document.querySelector("svg.N > use");
+      const use = document.querySelector("svg.M > use");
       use.setAttribute("xlink:href", "assets/sprite.svg#" + icon.slice(0, -4));
     },
     dash(query) {
@@ -205,7 +205,7 @@ import autoComplete from "./autoComplete";
     },
     resultsList: {
       class: "V W",
-      destination: "form.L",
+      destination: "form.K",
       maxResults: 100
     },
     resultItem: {
@@ -261,7 +261,7 @@ import autoComplete from "./autoComplete";
     },
     resultsList: {
       class: "X",
-      destination: "form.L",
+      destination: "form.K",
       maxResults: 20,
       noResults: false,
       element: (list, data) => {
@@ -290,7 +290,7 @@ import autoComplete from "./autoComplete";
     constructor(autoCompleteInstance) {
       this.ctx = autoCompleteInstance;
       this.searchBar = document.querySelector("input.Q");
-      this.wrapper = document.querySelector("div.M");
+      this.wrapper = document.querySelector("div.L");
 
       this.clickDelegate = this.clickDelegate.bind(this);
       this.dismiss = this.dismiss.bind(this);

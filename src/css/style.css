@@ -85,14 +85,6 @@ footer a {
     color: var(--text-muted);
 }
 
-.svg {
-    width: 1em;
-    height: 1em;
-    vertical-align: -0.15em;
-    fill: currentColor;
-    overflow: hidden;
-}
-
 .wrapper,
 .A,
 .D {
@@ -195,7 +187,7 @@ footer a {
 
 /* ↑ Sites ↑ * ↓ Search bar ↓ */
 
-.K {
+.J {
     border: 1px solid #d0d0d0;
     border-radius: var(--corner-radius);
     width: 470px;
@@ -204,18 +196,18 @@ footer a {
     margin-top: 0.9375rem !important;
 }
 
-.L,
-.M {
+.K,
+.L {
     display: flex;
 }
 
-.L {
+.K {
     height: 48px;
     border-radius: var(--corner-radius);
     background: #f6f6f6;
 }
 
-.M {
+.L {
     height: 100%;
     padding: 0 10px;
     color: #4c4c4c;
@@ -223,24 +215,32 @@ footer a {
     cursor: pointer;
 }
 
-.N {
+.M {
     opacity: .88;
     width: 28px;
     height: 28px;
 }
 
-.N:hover {
+.M:hover {
     opacity: 1;
 }
 
-.O {
+.N {
     opacity: .64;
     margin-left: 6px;
     font-size: 10px;
 }
 
-.O:hover {
+.N:hover {
     opacity: .88;
+}
+
+.O {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
 }
 
 .Q {
@@ -409,26 +409,26 @@ footer a {
 }
 
 @media screen and (max-width: 834px) {
-    .K {
+    .J {
         max-width: 80%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .K {
+    .J {
         max-width: 100%;
     }
 
-    .L {
+    .K {
         height: 40px;
     }
 
-    .N {
+    .M {
         width: 22px;
         height: 22px;
     }
 
-    .O {
+    .N {
         margin-left: 4px;
         font-size: 8px;
     }

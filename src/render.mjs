@@ -1,7 +1,7 @@
 export default ({ title, bookmark }) => {
   // V2EX https://static.v2ex.com/grids/air.png
   function render() {
-    return `<ul class="A flex-left flex-wrap">
+    return `<ul class="A">
 ${bookmark.map(renderLi).join("\n")}
 </ul>
     `;
@@ -17,7 +17,7 @@ ${bookmark.map(renderLi).join("\n")}
     const _blank = newTab ? ' target="_blank" rel="noreferrer"' : "";
     const icon = favicon ? `<div class="E ${favicon}"></div>\n` : "";
     return `<li class="C">
-<a class="D flex-middle" href="${url}"${_blank}>
+<a class="D" href="${url}"${_blank}>
 ${icon}<span>${name}</span>
 </a>
 </li>`;
@@ -48,19 +48,19 @@ ${icon}<span>${name}</span>
 <body tabindex="0">
 <div class="wrapper">
     <div class="container">
-      <div class="K">
-        <form class="L">
-          <div class="M">
-            <svg class="N"><use xlink:href="assets/sprite.svg#baidu"></use></svg>
-            <svg class="svg O"><use xlink:href="#svg-toggle"></use></svg>
+      <div class="J">
+        <form class="K">
+          <div class="L">
+            <svg class="M"><use xlink:href="assets/sprite.svg#baidu"></use></svg>
+            <svg class="N O"><use xlink:href="#svg-toggle"></use></svg>
             <input class="P" style="width: 0; height: 0" inputmode="none" />
           </div>
           <input class="Q" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" autofocus="off" tabindex="1" />
           <div class="R" tabindex="3" style="display: none">
-            <svg class="svg"><use xlink:href="#svg-clear"></use></svg>
+            <svg class="O"><use xlink:href="#svg-clear"></use></svg>
           </div>
           <button class="T" type="submit" tabindex="2">
-            <svg class="svg"><use xlink:href="#svg-magnifier"></use></svg>
+            <svg class="O"><use xlink:href="#svg-magnifier"></use></svg>
           </button>
         </form>
       </div>
