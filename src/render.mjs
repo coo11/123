@@ -8,10 +8,7 @@ ${bookmark.map(renderLi).join("\n")}
   }
 
   function renderLi({ category, name, url, favicon, newTab }) {
-    if (category) {
-      const _category = category.replace(/\s/g, "");
-      return `<li class="B" id="${_category}">${category}</li>`;
-    }
+    if (category) return `<li class="B">${category}</li>`;
     if (favicon) favicon = favicon.slice(0, -4).toLowerCase();
     else favicon = "";
     const _blank = newTab ? ' target="_blank" rel="noreferrer"' : "";
@@ -40,6 +37,7 @@ ${icon}<span>${name}</span>
   <meta name="description" content="A simple start page">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <title>${title}</title>
+  <link rel="preload" href="./assets/sprite.svg" as="image" type="image/svg+xml">
   <link rel="shortcut icon" type="image/png" href="./favicon.ico">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <link rel="stylesheet" href="./assets/style.css">
