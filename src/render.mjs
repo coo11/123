@@ -37,7 +37,6 @@ ${icon}<span>${name}</span>
   <meta name="description" content="A simple start page">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <title>${title}</title>
-  <link rel="preload" href="./assets/sprite.svg" as="image" type="image/svg+xml">
   <link rel="shortcut icon" type="image/png" href="./favicon.ico">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <link rel="stylesheet" href="./assets/style.css">
