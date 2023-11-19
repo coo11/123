@@ -121,7 +121,7 @@ footer a {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     overflow: hidden;
-    padding: 0 0.9375rem 0.9375rem;
+    padding: 0 0.9375rem;
     background: hsla(0, 50%, 100%, 0.7);
     max-width: 50rem;
 }
