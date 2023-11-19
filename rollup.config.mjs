@@ -65,7 +65,7 @@ Spritesmith.run(
         `\n${className} { background: url(${spriteName}) no-repeat` +
         ` -${x / r}px -${y / r}px; }`;
     }
-    spriteCss += `\n.E { background-size: ${width / r}px ${height / r}px; }`;
+    spriteCss += `\n.F { background-size: ${width / r}px ${height / r}px; }`;
     const style = fs.readFileSync("./src/css/style.css", "utf8");
     fs.writeFileSync(temp + "style.css", style + spriteCss);
   }

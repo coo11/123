@@ -16,6 +16,18 @@ import autoComplete from "./autoComplete";
   }
 }
 {
+  // https://css-tricks.com/how-to-detect-when-a-sticky-element-gets-pinned/
+  const naveBar = document.querySelector(".H");
+  const observer = new IntersectionObserver(
+    ([e]) => {
+      console.log(e);
+      e.target.classList.toggle("I", e.intersectionRatio < 1);
+    },
+    { threshold: [1] }
+  );
+  observer.observe(naveBar);
+}
+{
   const fetchJSONP = url =>
     new Promise(rs => {
       const script = document.createElement("script");
