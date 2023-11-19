@@ -235,9 +235,9 @@ bookmark:
   - name: GVoice
     url: https://voice.google.com/messages
     favicon: googlevoice.png
-  - name: Textnow
-    url: https://www.textnow.com/messaging
-    favicon: textnow.png
+  # - name: Textnow
+  #   url: https://www.textnow.com/messaging
+  #   favicon: textnow.png
   - name: Inoreader
     url: https://jp.inoreader.com/zh-hans/
     favicon: inoreader.png
@@ -294,6 +294,9 @@ bookmark:
   - name: Bard
     url: https://bard.google.com
     favicon: bard.png
+  - name: <b>Index</b>
+    newTab: true
+    url: https://t.ehhh.eu.org/
 
   - category: Shopping
   - name: 京东
