@@ -40,7 +40,7 @@ import autoComplete from "./autoComplete";
         name: "Google",
         shortcut: "#g",
         icon: "google.svg",
-        autoComplete: true,
+        autoComplete: "jsonp",
         prefix: "https://www.google.com/search?q=",
         sug: "https://suggestqueries.google.com/complete/search?client=chrome&q={keyword}&callback="
       },
@@ -48,7 +48,7 @@ import autoComplete from "./autoComplete";
         name: "百度",
         shortcut: "#bd",
         icon: "baidu.svg",
-        autoComplete: true,
+        autoComplete: "jsonp",
         prefix: "https://www.baidu.com/s?wd=",
         sug: "https://www.baidu.com/su?p=3&wd={keyword}&cb="
       },
@@ -56,7 +56,7 @@ import autoComplete from "./autoComplete";
         name: "Bing",
         shortcut: "#bi",
         icon: "bing.svg",
-        autoComplete: true,
+        autoComplete: "jsonp",
         prefix: "https://www.bing.com/search?q=",
         sug: "https://api.bing.com/qsonhs.aspx?type=cb&q={keyword}&cb="
       },
@@ -64,7 +64,7 @@ import autoComplete from "./autoComplete";
         name: "搜狗",
         shortcut: "#sg",
         icon: "sogou.svg",
-        autoComplete: true,
+        autoComplete: "jsonp",
         prefix: "https://www.sogou.com/web?query=",
         sug: "https://wap.sogou.com/web/sugg/{keyword}?vr=1&s=1&source=wapsearch&encrypt=0&cb="
       },
@@ -72,8 +72,9 @@ import autoComplete from "./autoComplete";
         name: "DuckDuckGo",
         shortcut: "#ddg",
         icon: "duckduckgo.svg",
-        autoComplete: false,
-        prefix: "https://duckduckgo.com/?q="
+        autoComplete: true,
+        prefix: "https://duckduckgo.com/?q=",
+        sug: "https://duckduckgo.com/ac/?q={keyword}&type=list"
       },
       {
         name: "微博",
@@ -239,7 +240,8 @@ import autoComplete from "./autoComplete";
             { autoComplete, sug, shortcut } = searchEngineConfig.currentEngine;
           if (autoComplete) {
             const url = sug.replace("{keyword}", encodeURIComponent(query));
-            const result = await (await fetchJSONP(url)).json();
+            const fn = autoComplete === "jsonp" ? fetchJSONP : fetch;
+            const result = await (await fn(url)).json();
             switch (shortcut) {
               case "#g":
                 suglist = result[1];
@@ -252,6 +254,9 @@ import autoComplete from "./autoComplete";
                 break;
               case "#sg":
                 suglist = result.s.map(i => i.q);
+                break;
+              case "#ddg":
+                suglist = result[1];
                 break;
             }
           }
