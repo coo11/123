@@ -3,15 +3,24 @@ import autoComplete from "./autoComplete";
 {
   let ua = window.navigator.userAgent;
   if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
-    document.body.style.background =
-      "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAAAAADF+lnMAAAAAnRSTlMA/1uRIrUAAAAmSURBVAjXNcYxAQAwEAIx6t8er+c6AJnyUJwIo6UznelMl6AFLXybuUg2me0a1QAAAABJRU5ErkJggg==') fixed";
+    const color = ["lightGrey", "#ffb6b9", "#61c0bf"][Math.round(Math.random() * 2)];
+    /* prettier-ignore */
+    const diagonalHatch = `<svg xmlns="http://www.w3.org/2000/svg"><pattern id="diagonalHatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="m-2 2 4-4M0 8l8-8M6 10l4-4"  stroke="${color}" stroke-width="1"/></pattern><rect width="100%" height="100%" fill="url(#diagonalHatch)"/></svg>`;
+    /* prettier-ignore */
+    const hexagons = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse"><path id="hex" fill="none" stroke="${color}" stroke-width="1" d="m24.8 22 12.5 7.2v14.5l-12.5 7.2-12.5-7.2V29.2z" shape-rendering="geometricPrecision"/><use xlink:href="#hex" x="25"/><use xlink:href="#hex" x="-25"/><use xlink:href="#hex" x="12.5" y="-21.7"/><use xlink:href="#hex" x="-12.5" y="-21.7"/></pattern></defs><rect width="100%" height="100%" fill="url(#hexagons)"/></svg>`;
+    const final = [hexagons, diagonalHatch][Math.round(Math.random() * 1)];
+    document.body.style.background = `url('data:image/svg+xml,${encodeURIComponent(
+      final
+    )}') fixed no-repeat center center / cover`;
     try {
-      fetch("https://api.coo11.eu.org/navi/bg", { method: "HEAD" }).then(
-        resp => {
-          if (resp.status === 200)
-            document.body.style.background = `url("${resp.url}") fixed no-repeat top center / cover`;
-        }
-      );
+      const hour = new Date().getHours();
+      if (hour < 9 || hour > 17)
+        fetch("https://api.coo11.eu.org/navi/bg", { method: "HEAD" }).then(
+          resp => {
+            if (resp.status === 200)
+              document.body.style.background = `url("${resp.url}") fixed no-repeat top center / cover`;
+          }
+        );
     } catch (e) {}
   }
 }
