@@ -61,9 +61,9 @@ bookmark:
   - name: Telegraph
     url: https://telegra.ph
     favicon: telegraph.png
-  - name: GIR
-    url: https://coo11.github.io/gir/
-    favicon: gir.png
+  # - name: GIR
+  #   url: https://coo11.github.io/gir/
+  #   favicon: gir.png
   - name: QRCode
     url: https://mazhuren.com
   - name: <b>More....</b>
@@ -153,7 +153,8 @@ bookmark:
   # - name: Два.ч
   #   url: https://2ch.hk
   - name: Steam
-    url: https://steamcommunity.com
+    url: https://store.steampowered.com/
+  #   url: https://steamcommunity.com
     favicon: steam.png
   - name: PCbeta
     url: http://bbs.pcbeta.com/forum.php
@@ -164,7 +165,7 @@ bookmark:
   #   url: http://club.excelhome.net/forum.php
   - name: 吾爱破解
     url: https://www.52pojie.cn
-  - name: 看雪论坛
+  - name: 看雪
     url: https://bbs.pediy.com
     favicon: pediy.png
 
@@ -222,7 +223,7 @@ bookmark:
     url: https://html-cleaner.com
   - name: CyberChef
     url: https://gchq.github.io/CyberChef/
-  - name: JSON Editor Online
+  - name: JSON Editor
     url: https://jsoneditoronline.com/
   - name: REQBIN
     url: https://reqbin.com/
@@ -277,9 +278,6 @@ bookmark:
     # url: https://tool.lu/markdown/
   - name: r12a
     url: https://r12a.github.io/app-encodings/
-  - name: Sketchpad
-    url: https://sketch.io/sketchpad/?lang=zh
-    favicon: sketchpad.png
   - name: Speedtest
     url: https://test.ustc.edu.cn/
     # Nanjing University Speed Test
@@ -298,16 +296,22 @@ bookmark:
     newTab: true
     url: https://t.ehhh.eu.org/
 
-  - category: Shopping
+  - category: Consume
   - name: 京东
     url: https://search.jd.com
     favicon: jingdong.png
   - name: 淘宝
     url: https://search.taobao.com
     favicon: taobao.png
+  - name: 饿了么
+    url: https://h5.ele.me
+    favicon: eleme.png
+  - name: 美团外卖
+    url: https://h5.waimai.meituan.com/waimai/mindex/home
+    favicon: meituanwaimai.png
   - name: 1688
     url: https://search.1688.com
-    favicon: 1688.png
+    favicon: x1688.png
   - name: Amazon
     url: https://www.amazon.co.jp
     favicon: amazon.png
