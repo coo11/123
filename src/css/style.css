@@ -1,7 +1,6 @@
 /*! Reference: mobi.css v3.1.1 http://getmobicss.com */
 
 :root {
-    --text-muted: #777;
     --corner-radius: 2px;
     --body-font: -apple-system, BlinkMacSystemFont, Hiragino Sans GB, Roboto, Segoe UI, Microsoft Yahei, 微软雅黑, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, STHeiti, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
@@ -26,6 +25,67 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
+html,
+body[current-theme=light] {
+    --body-bgcolor: #ededed;
+    --container-bgcolor: #fff;
+    /* --container-bgcolor: hsla(0, 50%, 100%, 0.7); */
+    --dark-color: #4c4c4c;
+    --light-color: #f6f6f6;
+    --mid-color: #dfdfdf;
+    --primary-color: #2d2d2d;
+    --secondary-color: #888;
+    --search-bgcolor: var(--light-color);
+    --panel-bgcolor: #fff;
+    --border-color: #d0d0d0;
+    --search-border-color: var(--border-color);
+    --block-bgcolor: var(--light-color);
+    --focus-bgcolor: var(--light-color);
+    --highlight-color: var(--dark-color);
+    --hover-color: hsl(0 0% 0% / .35);
+    --github-svg-color: #24292f;
+}
+
+body[current-theme=dark] {
+    --body-bgcolor: black;
+    --container-bgcolor: #161616;
+    --dark-color: #ababab;
+    --light-color: #4a4a4a;
+    --mid-color: #2c2c2c;
+    --primary-color: #ddd;
+    --secondary-color: #aaa;
+    --search-bgcolor: #282828;
+    --panel-bgcolor: #222;
+    --border-color: var(--mid-color);
+    --search-border-color: transparent;
+    --block-bgcolor: #1c1c1c;
+    --focus-bgcolor: #1c1c1c;
+    --highlight-color: var(--light-color);
+    --hover-color: hsla(0, 50%, 100%, 0.35);
+    --github-svg-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --body-bgcolor: black;
+        --container-bgcolor: #161616;
+        --dark-color: #ababab;
+        --light-color: #4a4a4a;
+        --mid-color: #2c2c2c;
+        --primary-color: #ddd;
+        --secondary-color: #aaa;
+        --search-bgcolor: #282828;
+        --panel-bgcolor: #222;
+        --border-color: var(--mid-color);
+        --search-border-color: transparent;
+        --block-bgcolor: #1c1c1c;
+        --focus-bgcolor: #1c1c1c;
+        --highlight-color: var(--light-color);
+        --hover-color: hsla(0, 50%, 100%, 0.35);
+        --github-svg-color: #fff;
+    }
+}
+
 body {
     margin: 0;
     font-family: var(--body-font);
@@ -33,6 +93,7 @@ body {
     /* line-height: 1.25; */
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    background: var(--body-bgcolor);
 }
 
 a {
@@ -70,19 +131,19 @@ input[type="search"]::-webkit-search-results-decoration {
 
 hr {
     border: 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--border-color);
 }
 
 footer {
     text-align: center;
     margin-top: 1.875rem !important;
     font-size: 85%;
-    color: var(--text-muted);
+    color: var(--secondary-color);
 }
 
 footer a {
     text-decoration: underline;
-    color: var(--text-muted);
+    color: var(--secondary-color);
 }
 
 .wrapper,
@@ -122,7 +183,8 @@ footer a {
     flex-grow: 1;
     overflow: hidden;
     padding: 0 0.9375rem;
-    background: hsla(0, 50%, 100%, 0.7);
+    background: var(--container-bgcolor);
+    /* backdrop-filter: blur(2px); */
     max-width: 50rem;
 }
 
@@ -146,7 +208,7 @@ footer a {
 .B {
     margin-top: 0.9375rem !important;
     font-size: 85%;
-    color: var(--text-muted);
+    color: var(--secondary-color);
     -ms-flex-preferred-size: 100%;
     -webkit-flex-basis: 100%;
     flex-basis: 100%;
@@ -167,11 +229,11 @@ footer a {
     opacity: 1;
     text-decoration: none;
     /* filter: drop-shadow(2px 2px 3px #888); */
-    filter: drop-shadow(1px 2px 8px hsl(0deg 0% 0% / 0.35));
+    filter: drop-shadow(1px 2px 8px var(--hover-color));
 }
 
 .D {
-    color: #333;
+    color: var(--primary-color);
     -ms-flex-align: center;
     -webkit-align-items: center;
     -webkit-box-align: center;
@@ -188,7 +250,7 @@ footer a {
 /* ↑ Sites ↑ * ↓ Search bar ↓ */
 
 .J {
-    border: 1px solid #d0d0d0;
+    border: 1px solid var(--search-border-color);
     border-radius: var(--corner-radius);
     width: 470px;
     position: relative;
@@ -204,13 +266,13 @@ footer a {
 .K {
     height: 48px;
     border-radius: var(--corner-radius);
-    background: #f6f6f6;
+    background: var(--search-bgcolor);
 }
 
 .L {
     height: 100%;
     padding: 0 10px;
-    color: #4c4c4c;
+    color: var(--dark-color);
     align-items: center;
     cursor: pointer;
 }
@@ -247,7 +309,7 @@ footer a {
     width: 100%;
     margin-left: 4px;
     line-height: 1.5;
-    color: #2d2d2d;
+    color: var(--primary-color);
     background: none;
     flex: 1;
 }
@@ -256,7 +318,7 @@ footer a {
     display: flex;
     padding: 0 10px;
     margin-right: 8px;
-    color: #888;
+    color: var(--secondary-color);
     font-size: 16px;
     cursor: pointer;
     align-items: center;
@@ -265,7 +327,7 @@ footer a {
 
 .R:focus,
 .R:hover {
-    color: #2d2d2d;
+    color: var(--primary-color);
 }
 
 .R.S {
@@ -277,7 +339,7 @@ footer a {
     border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
     font-size: 18px;
     cursor: pointer;
-    color: #4c4c4c;
+    color: var(--dark-color);
     background: transparent;
     z-index: 100;
 }
@@ -285,8 +347,8 @@ footer a {
 .T.U,
 .T:focus,
 .T:hover {
-    color: #fff;
-    background: #4c4c4c;
+    color: white;
+    background: var(--highlight-color);
 }
 
 .V {
@@ -302,10 +364,10 @@ footer a {
     list-style: none;
     position: absolute;
     z-index: 99;
-    border: 1px solid #d0d0d0;
+    border: 1px solid var(--border-color);
     border-radius: 0 0 var(--corner-radius) var(--corner-radius);
-    color: #2d2d2d;
-    background: #fff;
+    color: var(--primary-color);
+    background: var(--panel-bgcolor);
 }
 
 .W {
@@ -321,11 +383,11 @@ footer a {
 }
 
 .W::-webkit-scrollbar-thumb:hover {
-    background: #888;
+    background: var(--secondary-color);
 }
 
 .W::-webkit-scrollbar-thumb {
-    background: #dfdfdf;
+    background: var(--mid-color);
 }
 
 .X {
@@ -384,7 +446,7 @@ footer a {
 .ea {
     max-width: 80px;
     margin-left: 16px;
-    color: #888;
+    color: var(--secondary-color);
 }
 
 .fa {
@@ -393,10 +455,10 @@ footer a {
     font-size: 10px;
     font-weight: 500;
     line-height: 18px;
-    color: #888;
+    color: var(--secondary-color);
     text-align: center;
     letter-spacing: .05em;
-    background: #f6f6f6;
+    background: var(--block-bgcolor);
 }
 
 .ga {
@@ -405,7 +467,7 @@ footer a {
 
 .ha,
 .ia {
-    background: #f6f6f6;
+    background: var(--focus-bgcolor);
 }
 
 @media screen and (max-width: 834px) {

@@ -22,7 +22,12 @@ const parser = {
       this.config = yaml.load(fs.readFileSync("config.yml", "utf8"));
       //console.log(this.config);
       this.src = new Set(
-        this.config.bookmark.filter(i => i.favicon).map(i => i.favicon)
+        this.config.bookmark
+          .filter(i => i.favicon)
+          .map(({ favicon: f, faviconAlt: fa }) => {
+            return fa ? [f, fa] : f;
+          })
+          .flat()
       );
     } catch (e) {
       console.log(e);
@@ -57,15 +62,32 @@ Spritesmith.run(
 
     let r = 2,
       spriteCss = "\n",
+      spriteCssAlt = [],
       { width, height } = properties;
     for (let path in coordinates) {
-      const { x, y } = coordinates[path],
+      let { x, y } = coordinates[path],
         className = "." + path.split("/").pop().slice(0, -4);
-      spriteCss +=
-        `\n${className} { background: url(${spriteName}) no-repeat` +
-        ` -${x / r}px -${y / r}px; }`;
+      if (className.endsWith("_d")) {
+        className = className.split("_d")[0];
+        spriteCssAlt.push(
+          `${className} { background: url(${spriteName}) no-repeat` +
+            ` -${x / r}px -${y / r}px; }`
+        );
+      } else {
+        spriteCss +=
+          `\n${className} { background: url(${spriteName}) no-repeat` +
+          ` -${x / r}px -${y / r}px; }`;
+      }
     }
-    spriteCss += `\n.E { background-size: ${width / r}px ${height / r}px; }`;
+    if (spriteCssAlt.length) {
+      spriteCss += spriteCssAlt.map(i => "\nbody[current-theme=dark] " + i).join("");
+      spriteCss +=
+        "\n@media (prefers-color-scheme: dark) {\n" +
+        spriteCssAlt.join("\n") +
+        "\n}";
+    }
+    // Specificity: (0, 3, 0)
+    spriteCss += `\n.C > .D > .E { background-size: ${width / r}px ${height / r}px; }`;
     const style = fs.readFileSync("./src/css/style.css", "utf8");
     fs.writeFileSync(temp + "style.css", style + spriteCss);
   }
@@ -154,7 +176,7 @@ export default {
           dest: "dist"
         },
         {
-          src: ["src/img/search", "temp/sprite.png", "temp/sprite.svg"],
+          src: ["temp/sprite.png", "temp/sprite.svg"],
           dest: "dist/assets"
         },
         {

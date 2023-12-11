@@ -21,6 +21,7 @@ bookmark:
   - name: GitHub
     url: https://github.com
     favicon: github.png
+    faviconAlt: github_d.png
   - name: Wikipedia
     url: https://zh.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5
     favicon: wiki.png
@@ -77,6 +78,7 @@ bookmark:
   - name: Twitter
     url: https://twitter.com
     favicon: twitter.png
+    faviconAlt: twitter_d.png
   - name: 微博
     url: https://weibo.com
     favicon: weibo.png
@@ -134,7 +136,6 @@ bookmark:
     favicon: googlescolar.png
   - name: AHA Song Finder
     url: https://www.aha-music.com/upload
-    favicon: aha.png
   - name: WAIT
     url: https://trace.moe
 
@@ -154,7 +155,7 @@ bookmark:
   #   url: https://2ch.hk
   - name: Steam
     url: https://store.steampowered.com/
-  #   url: https://steamcommunity.com
+    #   url: https://steamcommunity.com
     favicon: steam.png
   - name: PCbeta
     url: http://bbs.pcbeta.com/forum.php
@@ -168,6 +169,7 @@ bookmark:
   - name: 看雪
     url: https://bbs.pediy.com
     favicon: pediy.png
+    faviconAlt: pediy_d.png
 
   - category: ACG
   - name: 番组计划
@@ -198,9 +200,8 @@ bookmark:
   - name: StackOverflow
     url: https://stackoverflow.com
     favicon: stackoverflow.png
-  - name: SuperUser
-    url: https://superuser.com
-    favicon: superuser.png
+  # - name: SuperUser
+  #   url: https://superuser.com
   # - name: MDN
   #   url: https://developer.mozilla.org/zh-CN/docs/Learn
   - name: RegExr
@@ -236,9 +237,6 @@ bookmark:
   - name: GVoice
     url: https://voice.google.com/messages
     favicon: googlevoice.png
-  # - name: Textnow
-  #   url: https://www.textnow.com/messaging
-  #   favicon: textnow.png
   - name: Inoreader
     url: https://jp.inoreader.com/zh-hans/
     favicon: inoreader.png
@@ -265,7 +263,6 @@ bookmark:
     url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
   - name: PaperSizes
     url: https://papersizes.io
-    favicon: papersizes.png
   - name: musicForProgramming
     url: https://musicforprogramming.net
   # - name: CloudConvert
@@ -342,7 +339,6 @@ bookmark:
     url: https://imgops.com
   - name: Unsplash
     url: https://unsplash.com/
-    favicon: unsplash.png
 
   - category: Cloud Service
   - name: iCloud
@@ -368,7 +364,6 @@ bookmark:
     favicon: colab.png
   - name: Vercel
     url: https://vercel.com/dashboard
-    favicon: vercel.png
   - name: 阿里云盘
     url: https://www.aliyundrive.com/drive
     favicon: aliyundrive.png
@@ -446,6 +441,7 @@ bookmark:
   - name: SteamDB
     url: https://steamdb.info
     favicon: steamdb.png
+    faviconAlt: steamdb_d.png
   # - name: Humble
   #   url: https://www.humblebundle.com
   - name: MusicBrainZ

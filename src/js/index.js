@@ -1,9 +1,12 @@
 import autoComplete from "./autoComplete";
 
 {
-  let ua = window.navigator.userAgent;
-  if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
-    const color = ["lightGrey", "#ffb6b9", "#61c0bf"][Math.round(Math.random() * 2)];
+  // if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
+  if (false) {
+    let ua = window.navigator.userAgent;
+    const color = ["lightGrey", "#ffb6b9", "#61c0bf"][
+      Math.round(Math.random() * 2)
+    ];
     /* prettier-ignore */
     /* const diagonalHatch = `<svg xmlns="http://www.w3.org/2000/svg"><pattern id="diagonalHatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="m-2 2 4-4M0 8l8-8M6 10l4-4"  stroke="${color}" stroke-width="1"/></pattern><rect width="100%" height="100%" fill="url(#diagonalHatch)"/></svg>`; */
     /* prettier-ignore */

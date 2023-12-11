@@ -42,7 +42,7 @@ ${icon}<span>${name}</span>
   <link rel="stylesheet" href="./assets/style.css">
   <script defer src="./assets/index.js"></script>
 </head>
-<body tabindex="0">
+<body tabindex="0" current-theme="">
 <div class="wrapper">
     <div class="container">
       <div class="J">
