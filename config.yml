@@ -64,12 +64,14 @@ bookmark:
     favicon: telegraph.png
   # - name: GIR
   #   url: https://coo11.github.io/gir/
-  #   favicon: gir.png
+  #   favicon: pic.png
   - name: QRCode
     url: https://mazhuren.com
-  - name: <b>More....</b>
+    favicon: qrcode.png
+  - name: <b>More</b>
     newTab: true
     url: https://rentry.co/g1
+    favicon: more.png
 
   - category: SNS
   - name: 知乎
@@ -192,9 +194,10 @@ bookmark:
     url: https://zh.moegirl.org.cn/Mainpage
   - name: 動漫花園
     url: https://share.dmhy.org
-  - name: <b>More....</b>
+  - name: <b>More</b>
     newTab: true
     url: https://rentry.co/acg
+    favicon: more.png
 
   - category: Dev
   - name: StackOverflow
@@ -229,9 +232,10 @@ bookmark:
   - name: REQBIN
     url: https://reqbin.com/
     favicon: reqbin.png
-  - name: <b>More....</b>
+  - name: <b>More</b>
     newTab: true
     url: https://rentry.co/idev
+    favicon: more.png
 
   - category: Utils
   - name: GVoice
@@ -245,6 +249,7 @@ bookmark:
     favicon: unicodetable.png
   - name: Dropmail
     url: https://dropmail.me/zh/
+    favicon: at.png
   - name: TableConvert
     url: https://tableconvert.com
     favicon: tableconvert.png
@@ -261,6 +266,7 @@ bookmark:
     # url: http://ariang.mayswind.net/latest
     # url: http://www.ykamc.cn/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
     url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
+    favicon: download.png
   - name: PaperSizes
     url: https://papersizes.io
   - name: musicForProgramming
@@ -273,6 +279,7 @@ bookmark:
   - name: HTML2MD
     url: https://www.helloworld.net/html2md
     # url: https://tool.lu/markdown/
+    favicon: helloworld.png
   - name: r12a
     url: https://r12a.github.io/app-encodings/
   - name: Speedtest
@@ -292,6 +299,7 @@ bookmark:
   - name: <b>Index</b>
     newTab: true
     url: https://t.ehhh.eu.org/
+    favicon: yinyang.png
 
   - category: Consume
   - name: 京东
@@ -332,13 +340,14 @@ bookmark:
     favicon: photofun.png
   - name: Watermark
     url: http://watermark.dxcweb.com/
-    favicon: pic.png
   - name: EZGIF
     url: https://ezgif.com
   - name: ImgOps
     url: https://imgops.com
   - name: Unsplash
     url: https://unsplash.com/
+    favicon: unsplash.png
+    faviconAlt: unsplash_d.png
 
   - category: Cloud Service
   - name: iCloud
@@ -447,8 +456,8 @@ bookmark:
   - name: MusicBrainZ
     url: https://musicbrainz.org/search
     favicon: musicbrainz.png
-  - name: Z-Library
-    url: https://singlelogin.me
+  - name: Z-Access
+    url: https://zh.go-to-zlibrary.se/#useful_link_tab
   - name: 福利吧
     url: https://fuliba.net
 
