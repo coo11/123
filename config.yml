@@ -80,7 +80,7 @@ bookmark:
     faviconAlt: twitter_d.png
   - name: 微博
     url: https://weibo.com
-    favicon: weibo.png
+    favicon: sinaweibo.png
   - name: Discord
     url: https://discord.com/channels/@me
     favicon: discord.png
@@ -233,6 +233,7 @@ bookmark:
     url: https://html-cleaner.com
   - name: CyberChef
     url: https://gchq.github.io/CyberChef/
+    favicon: chef.png
   - name: JSON Editor
     url: https://jsoneditoronline.com/
   - name: REQBIN
