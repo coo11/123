@@ -74,9 +74,6 @@ bookmark:
     favicon: more.png
 
   - category: SNS
-  - name: 知乎
-    url: https://www.zhihu.com
-    favicon: zhihu.png
   - name: Twitter
     url: https://twitter.com
     favicon: twitter.png
@@ -84,6 +81,9 @@ bookmark:
   - name: 微博
     url: https://weibo.com
     favicon: weibo.png
+  - name: Discord
+    url: https://discord.com/channels/@me
+    favicon: discord.png
   - name: 虎牙
     url: https://www.huya.com
     favicon: huya.png
@@ -96,9 +96,9 @@ bookmark:
   - name: Twitch
     url: https://www.twitch.tv
     favicon: twitch.png
-  - name: Discord
-    url: https://discord.com/channels/@me
-    favicon: discord.png
+  - name: 知乎
+    url: https://www.zhihu.com
+    favicon: zhihu.png
 
   - category: Search
   - name: Google
@@ -106,7 +106,7 @@ bookmark:
     favicon: google.png
   - name: Yandex 搜图
     url: https://yandex.com/images/
-    favicon: yandex.png
+    favicon: yandeximage.png
   # - name: Google 图片
   #   url: https://images.google.com
   #   favicon: google.png
@@ -192,10 +192,12 @@ bookmark:
   - name: 萌娘百科
     url: https://zh.moegirl.org.cn/Mainpage
     favicon: moegirl.png
+    faviconAlt: moegirl_d.png
   - name: 動漫花園
     url: https://share.dmhy.org
   - name: 樱花动漫
     url: https://www.yinhuadm.one/
+    favicon: cherryblossom.png
   - name: <b>More</b>
     newTab: true
     url: https://rentry.co/acg
