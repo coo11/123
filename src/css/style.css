@@ -241,6 +241,7 @@ footer a {
 }
 
 .E {
+    background-repeat: no-repeat; 
     display: inline-block;
     margin-right: 4px;
     height: 16px;

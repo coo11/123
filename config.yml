@@ -24,7 +24,7 @@ bookmark:
     faviconAlt: github_d.png
   - name: Wikipedia
     url: https://zh.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5
-    favicon: wiki.png
+    favicon: wikipedia.png
   - name: Notion
     url: https://www.notion.so/
     favicon: notion.png
@@ -41,7 +41,7 @@ bookmark:
     favicon: telegram.png
   - name: 微信
     url: https://wx2.qq.com
-    favicon: wechat.png
+    favicon: wechat2.png
   - name: 坚果云
     url: https://www.jianguoyun.com
     favicon: jianguoyun.png
@@ -51,6 +51,7 @@ bookmark:
   - name: DeepL
     url: https://www.deepl.com/translator
     favicon: deepl.png
+    faviconAlt: deepl_d.png 
 
   - category: Shortcuts
   - name: 文件传输助手
@@ -61,7 +62,6 @@ bookmark:
     favicon: rentryco.png
   - name: Telegraph
     url: https://telegra.ph
-    favicon: telegraph.png
   # - name: GIR
   #   url: https://coo11.github.io/gir/
   #   favicon: pic.png
@@ -106,28 +106,28 @@ bookmark:
     favicon: google.png
   - name: Yandex 搜图
     url: https://yandex.com/images/
-    favicon: yandeximage.png
+    favicon: yandex.png
   # - name: Google 图片
   #   url: https://images.google.com
   #   favicon: google.png
   - name: 百度识图
     url: https://image.baidu.com/?fr=shitu
     favicon: baidu.png
-  - name: Startpage
-    url: https://startpage.com
-    favicon: startpage.png
+  - name: AHA Music
+    url: https://www.aha-music.com/upload
   - name: Bing
     url: https://www.bing.com
     favicon: bing.png
   - name: WolframAlpha
     url: https://www.wolframalpha.com/
     favicon: wolframalpha.png
+  - name: Startpage
+    url: https://startpage.com
   - name: SauceNAO
     url: https://saucenao.com
     favicon: saucenao.png
-  - name: ascii2d
+  - name: ASCII2D
     url: https://ascii2d.net
-    favicon: ascii2d.png
   # - name: IQDB
   #   url: https://iqdb.org/
   # - name: Twitter 高级搜索
@@ -136,10 +136,12 @@ bookmark:
   - name: Google 学术
     url: https://scholar.google.com
     favicon: googlescolar.png
-  - name: AHA Song Finder
-    url: https://www.aha-music.com/upload
   - name: WAIT
-    url: https://trace.moe
+    url: https://trace.moe/
+  - name: 搜图Bot酱
+    url: https://soutubot.moe/
+  - name: AnimeTrace
+    url: https://ai.animedb.cn/
 
   - category: Community
   - name: NGA
@@ -170,14 +172,11 @@ bookmark:
     url: https://www.52pojie.cn
   - name: 看雪
     url: https://bbs.pediy.com
-    favicon: pediy.png
-    faviconAlt: pediy_d.png
 
   - category: ACG
   - name: 番组计划
     #  url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
     url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
-    favicon: bangumi.png
   # - name: AcFun
   #   url: https://www.acfun.cn
   #   favicon: acfun.png
@@ -192,8 +191,11 @@ bookmark:
     url: https://www.tsdm39.com/forum.php
   - name: 萌娘百科
     url: https://zh.moegirl.org.cn/Mainpage
+    favicon: moegirl.png
   - name: 動漫花園
     url: https://share.dmhy.org
+  - name: 樱花动漫
+    url: https://www.yinhuadm.one/
   - name: <b>More</b>
     newTab: true
     url: https://rentry.co/acg
@@ -215,6 +217,8 @@ bookmark:
     favicon: jsfiddle.png
   - name: FOFA
     url: https://fofa.info/
+    favicon: fofa.png
+    faviconAlt: fofa_d.png
   - name: GitLab
     url: https://gitlab.com
     favicon: gitlab.png
@@ -266,11 +270,9 @@ bookmark:
     # url: http://ariang.mayswind.net/latest
     # url: http://www.ykamc.cn/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
     url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
-    favicon: download.png
+    favicon: downarrow.png
   - name: PaperSizes
     url: https://papersizes.io
-  - name: musicForProgramming
-    url: https://musicforprogramming.net
   # - name: CloudConvert
   #   url: https://cloudconvert.com
   - name: iLovePDF
@@ -316,7 +318,7 @@ bookmark:
     favicon: meituanwaimai.png
   - name: 1688
     url: https://search.1688.com
-    favicon: x1688.png
+    favicon: alibaba.png
   - name: Amazon
     url: https://www.amazon.co.jp
     favicon: amazon.png
@@ -337,7 +339,6 @@ bookmark:
   # url: https://tinypng.com
   - name: PhotoFun
     url: https://www.photofun.cn/compress/
-    favicon: photofun.png
   - name: Watermark
     url: http://watermark.dxcweb.com/
   - name: EZGIF
@@ -348,6 +349,8 @@ bookmark:
     url: https://unsplash.com/
     favicon: unsplash.png
     faviconAlt: unsplash_d.png
+  - name: BoxySVG
+    url: https://boxy-svg.com/app
 
   - category: Cloud Service
   - name: iCloud
@@ -358,7 +361,7 @@ bookmark:
     favicon: mega.png
   - name: Wokers
     url: https://dash.cloudflare.com/?account=workers
-    favicon: cloudflare.png
+    favicon: workers.png
   - name: Apps Script
     url: https://script.google.com/home
     favicon: appsscript.png
@@ -381,7 +384,6 @@ bookmark:
     favicon: pikpak.png
   - name: 蓝奏云
     url: https://www.lanzou.com/
-    favicon: lanzou.png
 
   - category: Booru
   - name: Danbooru
@@ -398,10 +400,15 @@ bookmark:
     favicon: kemono.png
   - name: Sankaku
     url: https://chan.sankakucomplex.com/cn/post
-    favicon: sankakucomplex.png
   # - name: Konachan
   #   url: https://konachan.com/post
   #   favicon: konachan.png
+
+  - category: Audio
+  - name: musicForProgramming
+    url: https://musicforprogramming.net
+  - name: Noises.online
+    url: https://noises.online
 
   - category: Calc
   - name: NumberEmpire
@@ -427,8 +434,6 @@ bookmark:
     newTab: true
     url: https://rentry.co/u6
     favicon: rentryco.png
-  - name: Noises.online
-    url: https://noises.online
   - name: Github✋⭐
     url: https://rentry.co/githubnostar
     favicon: github.png
@@ -436,9 +441,6 @@ bookmark:
     url: https://bbs.imoutolove.me/thread.php?fid-9.html
   - name: IMDb
     url: https://www.imdb.com
-    favicon: imdb.png
-  - name: 网盘搜索
-    url: https://adzhp.xyz/wang-pan-sou-suo.html
   - name: 天眼查
     url: https://www.tianyancha.com
     favicon: tianyancha.png
@@ -446,7 +448,7 @@ bookmark:
     url: https://www.qcc.com
     favicon: qichacha.png
   - name: 历史价格查询
-    url: http://www.lsjgcx.com
+    url: https://www.lsjgcx.com
   - name: SteamDB
     url: https://steamdb.info
     favicon: steamdb.png
@@ -464,10 +466,8 @@ bookmark:
   # - category: NSFW
   # - name: E-Hentai
   #   url: https://e-hentai.org/
-  #   favicon: ehentai.png
   # - name: ExHentai
   #   url: https://exhentai.org/
-  #   favicon: ehentai.png
   # - name: 绅士仓库
   #   url: https://galacg.github.io/
   # - name: 琉璃神社⛩

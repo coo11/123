@@ -10,12 +10,12 @@ import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import { babel } from "@rollup/plugin-babel";
 import render from "./src/render.mjs";
+import { rejects } from "assert";
 
 const temp = "temp/";
 if (fs.existsSync(temp)) fs.rmSync(temp, { recursive: true });
 fs.mkdirSync(temp);
 
-const logoPath = "./src/img/logo/";
 const parser = {
   init() {
     try {
@@ -33,10 +33,10 @@ const parser = {
       console.log(e);
     }
   },
-  pick({ png = true, pngToUse = false }) {
-    let files = fs.readdirSync(logoPath).filter(i => {
+  pick({ png = true, pngToUse = false }, path) {
+    let files = fs.readdirSync(path).filter(i => {
       return (
-        fs.statSync(`${logoPath}${i}`).isFile() &&
+        fs.statSync(`${path}${i}`).isFile() &&
         i.toLowerCase().endsWith(".png") === png
       );
     });
@@ -48,50 +48,75 @@ const parser = {
 };
 
 parser.init();
+let spriteCss = "\n";
+const generateSprite = sideLength =>
+  new Promise((resolve, reject) => {
+    const logoPath = `./src/img/${sideLength}/`;
+    Spritesmith.run(
+      {
+        src: parser
+          .pick({ png: true, pngToUse: true }, logoPath)
+          .map(i => `${logoPath}${i}`),
+        padding: 2
+      },
+      (err, { image, coordinates, properties }) => {
+        err && reject(err);
+        const spriteName = `sprite${sideLength}.png`;
+        const { width, height } = properties;
+        fs.writeFileSync(temp + spriteName, image);
 
-Spritesmith.run(
-  {
-    src: parser.pick({ png: true, pngToUse: true }).map(i => `${logoPath}${i}`),
-    padding: 2
-  },
-  (err, { image, coordinates, properties }) => {
-    err && reject(err);
+        if (sideLength === 32) {
+          let spriteCssAlt = [];
+          for (let path in coordinates) {
+            let { x, y } = coordinates[path],
+              className = "." + path.split("/").pop().slice(0, -4);
+            if (className.endsWith("_d")) {
+              className = className.split("_d")[0];
+              spriteCssAlt.push(
+                `${className} { background-position:` +
+                  ` ${(100 * x) / (width - sideLength)}% ${
+                    (100 * y) / (height - sideLength)
+                  }%; }`
+              );
+            } else {
+              spriteCss +=
+                // https://blog.vjeux.com/2012/image/css-understanding-percentage-background-position.html
+                `\n${className} { background-position:` +
+                ` ${(100 * x) / (width - sideLength)}% ${
+                  (100 * y) / (height - sideLength)
+                }%; }`;
+            }
+          }
+          if (spriteCssAlt.length) {
+            spriteCss += spriteCssAlt
+              .map(i => "\nbody[current-theme=dark] " + i)
+              .join("");
+            spriteCss +=
+              "\n@media (prefers-color-scheme: dark) {\n" +
+              spriteCssAlt.join("\n") +
+              "\n}";
+          }
+        }
 
-    const spriteName = "sprite.png";
-    fs.writeFileSync(temp + spriteName, image);
-
-    let r = 2,
-      spriteCss = "\n",
-      spriteCssAlt = [],
-      { width, height } = properties;
-    for (let path in coordinates) {
-      let { x, y } = coordinates[path],
-        className = "." + path.split("/").pop().slice(0, -4);
-      if (className.endsWith("_d")) {
-        className = className.split("_d")[0];
-        spriteCssAlt.push(
-          `${className} { background: url(${spriteName}) no-repeat` +
-            ` -${x / r}px -${y / r}px; }`
-        );
-      } else {
-        spriteCss +=
-          `\n${className} { background: url(${spriteName}) no-repeat` +
-          ` -${x / r}px -${y / r}px; }`;
+        const backgroundCss =
+          // Specificity: (0, 3, 0)
+          ".C > .D > .E { background-image: url(" +
+          spriteName +
+          "); background-size: " +
+          `${(width * 16) / sideLength}px ` +
+          `${(height * 16) / sideLength}px; }`;
+        if (sideLength > 32) {
+          spriteCss += `\n@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) { ${backgroundCss} }`;
+        } else spriteCss += `\n${backgroundCss}`;
+        resolve(true);
       }
-    }
-    if (spriteCssAlt.length) {
-      spriteCss += spriteCssAlt.map(i => "\nbody[current-theme=dark] " + i).join("");
-      spriteCss +=
-        "\n@media (prefers-color-scheme: dark) {\n" +
-        spriteCssAlt.join("\n") +
-        "\n}";
-    }
-    // Specificity: (0, 3, 0)
-    spriteCss += `\n.C > .D > .E { background-size: ${width / r}px ${height / r}px; }`;
-    const style = fs.readFileSync("./src/css/style.css", "utf8");
-    fs.writeFileSync(temp + "style.css", style + spriteCss);
-  }
-);
+    );
+  });
+
+await generateSprite(32);
+await generateSprite(64);
+const style = fs.readFileSync("./src/css/style.css", "utf8");
+fs.writeFileSync(temp + "style.css", style + spriteCss);
 
 const svgPath = "./src/img/search/";
 const svgs = fs.readdirSync(svgPath);
@@ -176,7 +201,7 @@ export default {
           dest: "dist"
         },
         {
-          src: ["temp/sprite.png", "temp/sprite.svg"],
+          src: ["temp/sprite32.png", "temp/sprite64.png", "temp/sprite.svg"],
           dest: "dist/assets"
         },
         {
