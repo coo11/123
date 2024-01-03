@@ -161,6 +161,12 @@ import autoComplete from "./autoComplete";
         prefix: "https://search.jd.com/Search?keyword="
       },
       {
+        name: "AppleMusic",
+        shortcut: "#am",
+        icon: "applemusic.svg",
+        prefix: "https://music.apple.com/jp/search?term="
+      },
+      {
         name: "天使动漫",
         shortcut: "#tsdm",
         icon: "music.svg",
