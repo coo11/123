@@ -236,6 +236,8 @@ bookmark:
     favicon: chef.png
   - name: JSON Editor
     url: https://jsoneditoronline.com/
+    favicon: json.png
+    faviconAlt: json_d.png
   - name: REQBIN
     url: https://reqbin.com/
     favicon: reqbin.png
@@ -258,6 +260,10 @@ bookmark:
   - name: Hugging Face
     url: https://huggingface.co/
     favicon: huggingface.png
+  - name: Claude
+    url: https://claude.ai/
+    favicon: claude.png
+    faviconAlt: claude_d.png
   - name: 文心一言
     url: https://yiyan.baidu.com/
     favicon: yiyan.png
