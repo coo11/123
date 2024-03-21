@@ -68,6 +68,10 @@ bookmark:
   - name: QRCode
     url: https://mazhuren.com
     favicon: qrcode.png
+  - name: NetCut
+    url: https://netcut.cn/
+    favicon: netcut.png
+    faviconAlt: netcut_d.png
   - name: <b>More</b>
     newTab: true
     url: https://rentry.co/g1
@@ -337,12 +341,15 @@ bookmark:
   - name: 饿了么
     url: https://h5.ele.me
     favicon: eleme.png
-  - name: 美团外卖
+  - name: 美团
     url: https://h5.waimai.meituan.com/waimai/mindex/home
     favicon: meituanwaimai.png
   - name: 1688
     url: https://search.1688.com
     favicon: alibaba.png
+  - name: 唯品会
+    url: https://www.vip.com/
+    favicon: vipcom.png
   - name: Amazon
     url: https://www.amazon.co.jp
     favicon: amazon.png
@@ -450,6 +457,9 @@ bookmark:
     favicon: mathway.png
 
   - category: Unclassified
+  - name: 12306
+    url: https://www.12306.cn/index/
+    favicon: 12306.png
   - name: Applist
     newTab: true
     url: https://rentry.co/applist
@@ -486,6 +496,9 @@ bookmark:
     url: https://zh.go-to-zlibrary.se/#useful_link_tab
   - name: 福利吧
     url: https://fuliba.net
+  - name: 天气网
+    url: http://www.weather.com.cn/
+    favicon: cnweather.png
 
   # - category: NSFW
   # - name: E-Hentai
