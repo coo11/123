@@ -31,7 +31,7 @@ bookmark:
   - name: Youtube
     url: https://www.youtube.com
     favicon: youtube.png
-  - name: 哔哩哔哩
+  - name: Bilibili
     url: https://t.bilibili.com
     #  url: https://search.bilibili.com/all
     favicon: bilibili.png
@@ -42,16 +42,19 @@ bookmark:
   - name: 微信
     url: https://wx2.qq.com
     favicon: wechat2.png
-  - name: 坚果云
-    url: https://www.jianguoyun.com
-    favicon: jianguoyun.png
   - name: 百度网盘
     url: https://pan.baidu.com/disk/home
     favicon: baidunetdisk.png
   - name: DeepL
     url: https://www.deepl.com/translator
     favicon: deepl.png
-    faviconAlt: deepl_d.png 
+    faviconAlt: deepl_d.png
+  - name: 谷歌翻译
+    url: https://translate.google.com/
+    favicon: googletranslate.png
+  - name: 百度翻译
+    url: https://fanyi.baidu.com/
+    favicon: baidutranslate.png
 
   - category: Shortcuts
   - name: 文件传输助手
@@ -68,7 +71,7 @@ bookmark:
   - name: QRCode
     url: https://mazhuren.com
     favicon: qrcode.png
-  - name: NetCut
+  - name: Netcut
     url: https://netcut.cn/
     favicon: netcut.png
     faviconAlt: netcut_d.png
@@ -79,7 +82,7 @@ bookmark:
 
   - category: SNS
   - name: Twitter
-    url: https://twitter.com
+    url: https://x.com
     favicon: twitter.png
     faviconAlt: twitter_d.png
   - name: 微博
@@ -384,6 +387,9 @@ bookmark:
     url: https://boxy-svg.com/app
 
   - category: Cloud Service
+  - name: 坚果云
+    url: https://www.jianguoyun.com
+    favicon: jianguoyun.png
   - name: iCloud
     url: https://www.icloud.com/
     favicon: icloud.png
