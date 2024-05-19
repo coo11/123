@@ -31,7 +31,7 @@ bookmark:
   - name: Youtube
     url: https://www.youtube.com
     favicon: youtube.png
-  - name: Bilibili
+  - name: 哔哩哔哩
     url: https://t.bilibili.com
     #  url: https://search.bilibili.com/all
     favicon: bilibili.png
@@ -82,7 +82,7 @@ bookmark:
 
   - category: SNS
   - name: Twitter
-    url: https://x.com
+    url: https://x.com/home
     favicon: twitter.png
     faviconAlt: twitter_d.png
   - name: 微博
@@ -306,7 +306,8 @@ bookmark:
     # Search instances: https://www.google.com/search?q=0.00+B%2Fs+AriaNg
     # url: http://ariang.mayswind.net/latest
     # url: http://www.ykamc.cn/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
-    url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
+    # url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
+    url: javascript:(()=%3E%7Bvar%20t=prompt(%22RPC%20Config:%22,%22http/127.0.0.1/6800%22);t&&(location.href=%22http://aria2.iloli.li/#!/settings/rpc/set/%22+t+%22/jsonrpc%22)%7D)();
     favicon: downarrow.png
   - name: PaperSizes
     url: https://papersizes.io
