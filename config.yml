@@ -236,6 +236,9 @@ bookmark:
     favicon: vscode.png
   - name: Carbon
     url: https://carbon.now.sh
+  - name: Minifier
+    url: https://hm.ehhh.eu.org/
+    favicon: terser.png
   - name: HTML Cleaner
     url: https://html-cleaner.com
   - name: CyberChef
@@ -304,7 +307,7 @@ bookmark:
     url: https://megalodon.jp/
   - name: AriaNg
     # Search instances: https://www.google.com/search?q=0.00+B%2Fs+AriaNg
-    # url: http://ariang.mayswind.net/latest
+    # url: http://ariang.mayswind.net/latest/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
     # url: http://www.ykamc.cn/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
     # url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
     url: javascript:(()=%3E%7Bvar%20t=prompt(%22RPC%20Config:%22,%22http/127.0.0.1/6800%22);t&&(location.href=%22http://aria2.iloli.li/#!/settings/rpc/set/%22+t+%22/jsonrpc%22)%7D)();
@@ -474,6 +477,9 @@ bookmark:
   - name: NoUse
     newTab: true
     url: https://rentry.co/u6
+  - name: LGUG
+    newTab: true
+    url: https://rentry.co/lgug
     favicon: rentryco.png
   - name: Github✋⭐
     url: https://rentry.co/githubnostar
