@@ -107,55 +107,12 @@ bookmark:
     url: https://www.zhihu.com
     favicon: zhihu.png
 
-  - category: Search
-  - name: Google
-    url: https://www.google.com/ncr
-    favicon: google.png
-  - name: Yandex 搜图
-    url: https://yandex.com/images/
-    favicon: yandeximage.png
-  # - name: Google 图片
-  #   url: https://images.google.com
-  #   favicon: google.png
-  - name: 百度识图
-    url: https://image.baidu.com/?fr=shitu
-    favicon: baidu.png
-  - name: AHA Music
-    url: https://www.aha-music.com/upload
-  - name: Bing
-    url: https://www.bing.com
-    favicon: bing.png
-  - name: WolframAlpha
-    url: https://www.wolframalpha.com/
-    favicon: wolframalpha.png
-  - name: Startpage
-    url: https://startpage.com
-  - name: SauceNAO
-    url: https://saucenao.com
-    favicon: saucenao.png
-  - name: ASCII2D
-    url: https://ascii2d.net
-  # - name: IQDB
-  #   url: https://iqdb.org/
-  # - name: Twitter 高级搜索
-  #   url: https://twitter.com/search-advanced
-  #   favicon: twitter.png
-  - name: Google 学术
-    url: https://scholar.google.com
-    favicon: googlescolar.png
-  - name: WAIT
-    url: https://trace.moe/
-  - name: 搜图Bot酱
-    url: https://soutubot.moe/
-  - name: AnimeTrace
-    url: https://ai.animedb.cn/
-
   - category: Forum
   - name: NGA
     url: https://bbs.nga.cn
     favicon: nga.png
   - name: V2EX
-    url: https://www.v2ex.com/?tab=all
+    url: https://cn.v2ex.com/?tab=all
     favicon: v2ex.png
   - name: reddit
     url: https://www.reddit.com
@@ -178,7 +135,7 @@ bookmark:
   - name: 吾爱破解
     url: https://www.52pojie.cn
   - name: 看雪
-    url: https://bbs.pediy.com
+    url: https://bbs.kanxue.com/
 
   - category: Dev
   - name: StackOverflow
@@ -228,17 +185,17 @@ bookmark:
   - name: ChatGPT
     url: https://chatgpt.com/
     favicon: chatgpt.png
-  - name: Gemini
-    url: https://gemini.google.com/app
-    favicon: gemini.png
-  - name: Copilot
-    url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
-    # url: https://chat.bing.com
-    favicon: mscopilot.png
   - name: Claude
     url: https://claude.ai/
     favicon: claude.png
     faviconAlt: claude_d.png
+  - name: Copilot
+    url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
+    # url: https://chat.bing.com
+    favicon: mscopilot.png
+  - name: Gemini
+    url: https://gemini.google.com/app
+    favicon: gemini.png
   - name: 通义千问
     url: https://tongyi.aliyun.com/qianwen/
     favicon: tongyi.png
@@ -250,10 +207,51 @@ bookmark:
     favicon: poe.png
   - name: LMSYS Arena
     url: https://chat.lmsys.org/
-    favicon: lmsysa.png
+    favicon: gradio.png
   - name: Hugging Face
     url: https://huggingface.co/
     favicon: huggingface.png
+
+  - category: Search
+  - name: Google
+    url: https://www.google.com/ncr
+    favicon: google.png
+  - name: Yandex 搜图
+    url: https://yandex.com/images/
+    favicon: yandeximage.png
+  # - name: Google 图片
+  #   url: https://images.google.com
+  #   favicon: google.png
+  - name: 百度识图
+    url: https://image.baidu.com/?fr=shitu
+    favicon: baidu.png
+  - name: Bing
+    url: https://www.bing.com
+    favicon: bing.png
+  - name: WolframAlpha
+    url: https://www.wolframalpha.com/
+    favicon: wolframalpha.png
+  - name: Startpage
+    url: https://startpage.com
+  - name: SauceNAO
+    url: https://saucenao.com
+    favicon: saucenao.png
+  - name: ASCII2D
+    url: https://ascii2d.net
+  # - name: IQDB
+  #   url: https://iqdb.org/
+  # - name: Twitter 高级搜索
+  #   url: https://twitter.com/search-advanced
+  #   favicon: twitter.png
+  - name: Google 学术
+    url: https://scholar.google.com
+    favicon: googlescolar.png
+  - name: WAIT
+    url: https://trace.moe/
+  - name: 搜图Bot酱
+    url: https://soutubot.moe/
+  - name: AnimeTrace
+    url: https://ai.animedb.cn/
 
   - category: Utils
   - name: GVoice
@@ -275,6 +273,8 @@ bookmark:
     url: https://ip.skk.moe/
   - name: InternetArchive
     url: https://archive.org/web/
+    favicon: internetarchive.png
+    faviconAlt: internetarchive_d.png
   - name: Archive.today
     url: https://archive.is
   - name: ウェブ魚拓
@@ -456,6 +456,8 @@ bookmark:
     url: https://musicforprogramming.net
   - name: Noises.online
     url: https://noises.online
+  - name: AHA Music
+    url: https://www.aha-music.com/upload
 
   - category: Calc
   - name: NumberEmpire
