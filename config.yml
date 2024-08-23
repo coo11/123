@@ -42,9 +42,9 @@ bookmark:
   - name: 微信
     url: https://wx2.qq.com
     favicon: wechat2.png
-  - name: 百度网盘
-    url: https://pan.baidu.com/disk/home
-    favicon: baidunetdisk.png
+  - name: MSN天气
+    url: https://www.msn.com/zh-cn/weather/forecast
+    favicon: microsoft.png
   - name: DeepL
     url: https://www.deepl.com/translator
     favicon: deepl.png
@@ -321,6 +321,8 @@ bookmark:
   - name: 淘宝
     url: https://search.taobao.com
     favicon: taobao.png
+  - name: 闲鱼
+    url: https://2.taobao.com
   - name: 饿了么
     url: https://h5.ele.me
     favicon: eleme.png
@@ -395,6 +397,9 @@ bookmark:
     url: https://vercel.com/dashboard
     favicon: vercel.png
     faviconAlt: vercel_d.png
+  - name: 百度网盘
+    url: https://pan.baidu.com/disk/home
+    favicon: baidunetdisk.png
   - name: 阿里云盘
     url: https://www.aliyundrive.com/drive
     favicon: aliyundrive.png
@@ -517,9 +522,9 @@ bookmark:
     favicon: musicbrainz.png
   - name: 福利吧
     url: https://fuliba.net
-  - name: 天气网
-    url: http://www.weather.com.cn/
-    favicon: cnweather.png
+  #- name: 天气网
+  #  url: http://www.weather.com.cn/
+  #  favicon: cnweather.png
 
   # - category: NSFW
   # - name: E-Hentai
