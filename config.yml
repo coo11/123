@@ -44,7 +44,7 @@ bookmark:
     favicon: wechat2.png
   - name: MSN天气
     url: https://www.msn.com/zh-cn/weather/forecast
-    favicon: microsoft.png
+    favicon: msn.png
   - name: DeepL
     url: https://www.deepl.com/translator
     favicon: deepl.png
@@ -137,6 +137,40 @@ bookmark:
   - name: 看雪
     url: https://bbs.kanxue.com/
 
+  - category: AI
+  - name: ChatGPT
+    url: https://chatgpt.com/
+    favicon: chatgpt.png
+  - name: Claude
+    url: https://claude.ai/
+    favicon: claude.png
+    faviconAlt: claude_d.png
+  - name: MistralAI
+    url: https://chat.mistral.ai/
+    favicon: mistralai.png
+  - name: Copilot
+    url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
+    # url: https://chat.bing.com
+    favicon: mscopilot.png
+  - name: Gemini
+    url: https://gemini.google.com/app
+    favicon: gemini.png
+  - name: 通义千问
+    url: https://tongyi.aliyun.com/qianwen/
+    favicon: tongyi.png
+  - name: 文心一言
+    url: https://yiyan.baidu.com/
+    favicon: yiyan.png
+  - name: Poe
+    url: https://poe.com/
+    favicon: poe.png
+  - name: LMSYS Arena
+    url: https://chat.lmsys.org/
+    favicon: gradio.png
+  - name: Hugging Face
+    url: https://huggingface.co/
+    favicon: huggingface.png
+
   - category: Dev
   - name: StackOverflow
     url: https://stackoverflow.com
@@ -180,37 +214,6 @@ bookmark:
     newTab: true
     url: https://rentry.co/idev
     favicon: more.png
-
-  - category: AI
-  - name: ChatGPT
-    url: https://chatgpt.com/
-    favicon: chatgpt.png
-  - name: Claude
-    url: https://claude.ai/
-    favicon: claude.png
-    faviconAlt: claude_d.png
-  - name: Copilot
-    url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
-    # url: https://chat.bing.com
-    favicon: mscopilot.png
-  - name: Gemini
-    url: https://gemini.google.com/app
-    favicon: gemini.png
-  - name: 通义千问
-    url: https://tongyi.aliyun.com/qianwen/
-    favicon: tongyi.png
-  - name: 文心一言
-    url: https://yiyan.baidu.com/
-    favicon: yiyan.png
-  - name: Poe
-    url: https://poe.com/
-    favicon: poe.png
-  - name: LMSYS Arena
-    url: https://chat.lmsys.org/
-    favicon: gradio.png
-  - name: Hugging Face
-    url: https://huggingface.co/
-    favicon: huggingface.png
 
   - category: Search
   - name: Google
