@@ -424,8 +424,6 @@ bookmark:
   - name: Pixiv
     url: https://www.pixiv.net/bookmark_new_illust.php
     favicon: pixiv.png
-  - name: 动漫之家
-    url: https://manhua.dmzj.com
   - name: 天使动漫
     url: https://www.tsdm39.com/forum.php
   - name: 萌娘百科
@@ -446,9 +444,9 @@ bookmark:
   - name: Danbooru
     url: https://danbooru.donmai.us/
     favicon: danbooru.png
-  - name: Gelbooru
-    url: https://gelbooru.com/index.php?page=post&s=list&tags=user:danbooru
-    favicon: gelbooru.png
+  # - name: Gelbooru
+  #   url: https://gelbooru.com/index.php?page=post&s=list&tags=user:danbooru
+  #   favicon: gelbooru.png
   - name: yande.re
     url: https://yande.re/post
     favicon: yandere.png
