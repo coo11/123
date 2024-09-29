@@ -134,8 +134,11 @@ bookmark:
   #   url: http://club.excelhome.net/forum.php
   - name: 吾爱破解
     url: https://www.52pojie.cn
-  - name: 看雪
-    url: https://bbs.kanxue.com/
+  - name: Hacker News
+    url: https://news.ycombinator.com/
+    favicon: hackernews.png
+  # - name: 看雪
+  #   url: https://bbs.kanxue.com/
 
   - category: AI
   - name: ChatGPT
@@ -263,9 +266,10 @@ bookmark:
   - name: Inoreader
     url: https://jp.inoreader.com/zh-hans/
     favicon: inoreader.png
-  - name: UnicodeTable
-    url: https://old.unicode-table.com/cn/
-    favicon: unicodetable.png
+  - name: SYMBL
+    url: https://symbl.cc/cn/unicode-table/
+    favicon: symbl.png
+    faviconAlt: symbl_d.png
   - name: Dropmail
     url: https://dropmail.me/zh/
     favicon: at.png
@@ -410,7 +414,7 @@ bookmark:
     url: https://mypikpak.com/drive/all
     favicon: pikpak.png
   - name: 蓝奏云
-    url: https://www.lanzou.com/
+    url: https://up.woozooo.com/
 
   - category: ACG
   - name: 番组计划
@@ -432,9 +436,9 @@ bookmark:
     faviconAlt: moegirl_d.png
   - name: 動漫花園
     url: https://share.dmhy.org
-  - name: 樱花动漫
-    url: https://www.yinhuadm.one/
-    favicon: cherryblossom.png
+  # - name: 樱花动漫
+  #   url: https://www.yinhuadm.one/
+  #   favicon: cherryblossom.png
   - name: <b>More</b>
     newTab: true
     url: https://rentry.co/acg
@@ -451,7 +455,7 @@ bookmark:
     url: https://yande.re/post
     favicon: yandere.png
   - name: Kemono
-    url: https://kemono.party/artists
+    url: https://kemono.su/artists
     favicon: kemono.png
   # - name: Sankaku
   #   url: https://sankaku.app/zh-CN
