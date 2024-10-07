@@ -10,7 +10,6 @@ import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import { babel } from "@rollup/plugin-babel";
 import render from "./src/render.mjs";
-import { rejects } from "assert";
 
 const temp = "temp/";
 if (fs.existsSync(temp)) fs.rmSync(temp, { recursive: true });

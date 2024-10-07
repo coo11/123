@@ -12,22 +12,18 @@ bookmark:
   - name: Outlook
     url: https://outlook.live.com/mail/0/inbox
     favicon: outlook.png
+  - name: 163邮箱
+    url: https://mail.163.com/
+    favicon: netease163.png
+  # - name: YandexMail
+  #   url: https://mail.yandex.com/
   # - name: Google Earth
   #   url: https://earth.google.com/web/
   # - name: Google Maps
   #   url: https://www.google.com/maps/
-  # - name: YandexMail
-  #   url: https://mail.yandex.com/
-  - name: GitHub
-    url: https://github.com
-    favicon: github.png
-    faviconAlt: github_d.png
   - name: Wikipedia
     url: https://zh.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5
     favicon: wikipedia.png
-  - name: Notion
-    url: https://www.notion.so/
-    favicon: notion.png
   - name: Youtube
     url: https://www.youtube.com
     favicon: youtube.png
@@ -35,6 +31,13 @@ bookmark:
     url: https://t.bilibili.com
     #  url: https://search.bilibili.com/all
     favicon: bilibili.png
+  - name: GitHub
+    url: https://github.com
+    favicon: github.png
+    faviconAlt: github_d.png
+  - name: Notion
+    url: https://www.notion.so/
+    favicon: notion.png
   - name: Telegram
     #  url: https://web.telegram.org/k/
     url: https://web.telegram.org/a/
@@ -42,9 +45,6 @@ bookmark:
   - name: 微信
     url: https://wx2.qq.com
     favicon: wechat2.png
-  - name: MSN天气
-    url: https://www.msn.com/zh-cn/weather/forecast
-    favicon: msn.png
   - name: DeepL
     url: https://www.deepl.com/translator
     favicon: deepl.png
@@ -57,6 +57,9 @@ bookmark:
     favicon: baidutranslate.png
 
   - category: Shortcuts
+  - name: MSN天气
+    url: https://www.msn.com/zh-cn/weather/forecast
+    favicon: msn.png
   - name: 文件传输助手
     url: https://szfilehelper.weixin.qq.com
     favicon: wechat.png
@@ -91,21 +94,21 @@ bookmark:
   - name: Discord
     url: https://discord.com/channels/@me
     favicon: discord.png
-  - name: 虎牙
-    url: https://www.huya.com
-    favicon: huya.png
-  - name: 斗鱼
-    url: https://www.douyu.com
-    favicon: douyu.png
+  - name: Spotify
+    url: https://open.spotify.com/
+    favicon: spotify.png
   - name: TikTok
     url: https://www.tiktok.com
     favicon: tiktok.png
   - name: Twitch
     url: https://www.twitch.tv
     favicon: twitch.png
-  - name: 知乎
-    url: https://www.zhihu.com
-    favicon: zhihu.png
+  - name: 虎牙
+    url: https://www.huya.com
+    favicon: huya.png
+  - name: 斗鱼
+    url: https://www.douyu.com
+    favicon: douyu.png
 
   - category: Forum
   - name: NGA
@@ -130,10 +133,13 @@ bookmark:
     favicon: pcbeta.png
   - name: Stage1st
     url: https://bbs.saraba1st.com/2b/forum.php
+  - name: 知乎
+    url: https://www.zhihu.com
+    favicon: zhihu.png
   # - name: ExcelHome
   #   url: http://club.excelhome.net/forum.php
-  - name: 吾爱破解
-    url: https://www.52pojie.cn
+  # - name: 吾爱破解
+  #   url: https://www.52pojie.cn
   - name: Hacker News
     url: https://news.ycombinator.com/
     favicon: hackernews.png
@@ -167,6 +173,7 @@ bookmark:
   - name: Poe
     url: https://poe.com/
     favicon: poe.png
+    faviconAlt: poe_d.png
   - name: LMSYS Arena
     url: https://chat.lmsys.org/
     favicon: gradio.png
@@ -222,7 +229,7 @@ bookmark:
   - name: Google
     url: https://www.google.com/ncr
     favicon: google.png
-  - name: Yandex 搜图
+  - name: Yandex搜图
     url: https://yandex.com/images/
     favicon: yandeximage.png
   # - name: Google 图片
@@ -249,7 +256,7 @@ bookmark:
   # - name: Twitter 高级搜索
   #   url: https://twitter.com/search-advanced
   #   favicon: twitter.png
-  - name: Google 学术
+  - name: Google学术
     url: https://scholar.google.com
     favicon: googlescolar.png
   - name: WAIT
@@ -489,7 +496,7 @@ bookmark:
   - category: Unclassified
   - name: 12306
     url: https://www.12306.cn/index/
-    favicon: 12306.png
+    favicon: railway12306.png
   - name: Applist
     newTab: true
     url: https://rentry.co/applist
