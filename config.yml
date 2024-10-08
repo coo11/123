@@ -126,13 +126,14 @@ bookmark:
   #   url: https://2ch.hk
   - name: Steam
     url: https://store.steampowered.com/
-    #   url: https://steamcommunity.com
+    # url: https://steamcommunity.com
     favicon: steam.png
   - name: PCbeta
     url: http://bbs.pcbeta.com/forum.php
     favicon: pcbeta.png
   - name: Stage1st
-    url: https://bbs.saraba1st.com/2b/forum.php
+    url: https://bbs.saraba1st.com/2b/forum-75-1.html
+    # url: https://bbs.saraba1st.com/2b/forum.php
   - name: 知乎
     url: https://www.zhihu.com
     favicon: zhihu.png
@@ -235,9 +236,9 @@ bookmark:
   # - name: Google 图片
   #   url: https://images.google.com
   #   favicon: google.png
-  - name: 百度识图
-    url: https://image.baidu.com/?fr=shitu
-    favicon: baidu.png
+  # - name: 百度识图
+  #   url: https://image.baidu.com/?fr=shitu
+  #   favicon: baidu.png
   - name: Bing
     url: https://www.bing.com
     favicon: bing.png
@@ -424,6 +425,23 @@ bookmark:
     url: https://up.woozooo.com/
 
   - category: ACG
+  - name: Danbooru
+    url: https://danbooru.donmai.us/
+    favicon: danbooru.png
+  # - name: Gelbooru
+  #   url: https://gelbooru.com/index.php?page=post&s=list&tags=user:danbooru
+  #   favicon: gelbooru.png
+  - name: yande.re
+    url: https://yande.re/post
+    favicon: yandere.png
+  - name: Kemono
+    url: https://kemono.su/artists
+    favicon: kemono.png
+  # - name: Sankaku
+  #   url: https://sankaku.app/zh-CN
+  # - name: Konachan
+  #   url: https://konachan.com/post
+  #   favicon: konachan.png
   - name: 番组计划
     #  url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
     url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
@@ -446,29 +464,16 @@ bookmark:
   # - name: 樱花动漫
   #   url: https://www.yinhuadm.one/
   #   favicon: cherryblossom.png
+  # - name: Sukebei
+  #   url: https://sukebei.nyaa.si/
+  #   favicon: nyaa.png
+  - name: Nyaa
+    url: https://nyaa.si/
+    favicon: nyaa.png
   - name: <b>More</b>
     newTab: true
     url: https://rentry.co/acg
     favicon: more.png
-
-  - category: Booru
-  - name: Danbooru
-    url: https://danbooru.donmai.us/
-    favicon: danbooru.png
-  # - name: Gelbooru
-  #   url: https://gelbooru.com/index.php?page=post&s=list&tags=user:danbooru
-  #   favicon: gelbooru.png
-  - name: yande.re
-    url: https://yande.re/post
-    favicon: yandere.png
-  - name: Kemono
-    url: https://kemono.su/artists
-    favicon: kemono.png
-  # - name: Sankaku
-  #   url: https://sankaku.app/zh-CN
-  # - name: Konachan
-  #   url: https://konachan.com/post
-  #   favicon: konachan.png
 
   - category: Audio
   - name: musicForProgramming
@@ -549,12 +554,6 @@ bookmark:
   #   url: https://acg.gy/
   # - name: 紳士の庭🎩
   #   url: https://gmgard.com/
-  # - name: Sukebei
-  #   url: https://sukebei.nyaa.si/
-  #   favicon: nyaa.png
-  # - name: Nyaa
-  #   url: https://nyaa.si/
-  #   favicon: nyaa.png
   # - name: HVDB
   #   url: https://hvdb.me/Dashboard/
   # - name: ＭＡＮＧＡ－ＤＢ
