@@ -4,26 +4,19 @@ import autoComplete from "./autoComplete";
   // if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
   if (false) {
     let ua = window.navigator.userAgent;
-    const color = ["lightGrey", "#ffb6b9", "#61c0bf"][
-      Math.round(Math.random() * 2)
-    ];
+    const color = ["lightGrey", "#ffb6b9", "#61c0bf"][Math.round(Math.random() * 2)];
     /* prettier-ignore */
     /* const diagonalHatch = `<svg xmlns="http://www.w3.org/2000/svg"><pattern id="diagonalHatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="m-2 2 4-4M0 8l8-8M6 10l4-4"  stroke="${color}" stroke-width="1"/></pattern><rect width="100%" height="100%" fill="url(#diagonalHatch)"/></svg>`; */
     /* prettier-ignore */
     const hexagons = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse"><path id="hex" fill="none" stroke="${color}" stroke-width="1" d="m24.8 22 12.5 7.2v14.5l-12.5 7.2-12.5-7.2V29.2z" shape-rendering="geometricPrecision"/><use xlink:href="#hex" x="25"/><use xlink:href="#hex" x="-25"/><use xlink:href="#hex" x="12.5" y="-21.7"/><use xlink:href="#hex" x="-12.5" y="-21.7"/></pattern></defs><rect width="100%" height="100%" fill="url(#hexagons)"/></svg>`;
     /* const final = [hexagons, diagonalHatch][Math.round(Math.random() * 1)]; */
-    document.body.style.background = `url('data:image/svg+xml,${encodeURIComponent(
-      hexagons
-    )}') fixed no-repeat center center / cover`;
+    document.body.style.background = `url('data:image/svg+xml,${encodeURIComponent(hexagons)}') fixed no-repeat center center / cover`;
     try {
       const hour = new Date().getHours();
       if (hour < 9 || hour > 17)
-        fetch("https://api.coo11.eu.org/navi/bg", { method: "HEAD" }).then(
-          resp => {
-            if (resp.status === 200)
-              document.body.style.background = `url("${resp.url}") fixed no-repeat top center / cover`;
-          }
-        );
+        fetch("https://api.coo11.eu.org/navi/bg", { method: "HEAD" }).then(resp => {
+          if (resp.status === 200) document.body.style.background = `url("${resp.url}") fixed no-repeat top center / cover`;
+        });
     } catch (e) {}
   }
 }
@@ -169,9 +162,14 @@ import autoComplete from "./autoComplete";
       {
         name: "天使动漫",
         shortcut: "#tsdm",
-        icon: "music.svg",
-        prefix:
-          "https://www.tsdm39.com/plugin.php?id=Kahrpba:search&authorid=0&fid=0&query="
+        icon: "tsdm.svg",
+        prefix: "https://www.tsdm39.com/plugin.php?id=Kahrpba:search&authorid=0&fid=0&query="
+      },
+      {
+        name: "SoulPlus",
+        shortcut: "#hj",
+        icon: "soulplus.svg",
+        prefix: "https://bbs.imoutolove.me/search.php?step=2&method=AND&sch_area=0&f_fid=all&sch_time=all&orderway=postdate&asc=DESC&keyword="
       }
     ],
     rememberLastUse: Number(localStorage.getItem("rememberLastUse")),
@@ -180,9 +178,7 @@ import autoComplete from "./autoComplete";
       const lastUsed = localStorage.getItem("lastUse");
       if (!this.rememberLastUse || !lastUsed) return this.list[0];
       else {
-        return (
-          this.list.filter(i => i.shortcut === "lastUsed")?.[0] || this.list[0]
-        );
+        return this.list.filter(i => i.shortcut === "lastUsed")?.[0] || this.list[0];
       }
     },
     set currentEngine(obj) {
@@ -283,11 +279,7 @@ import autoComplete from "./autoComplete";
       maxResults: 20,
       noResults: false,
       element: (list, data) => {
-        data.results[0].value.hasOwnProperty("shortcut") &&
-          list.insertAdjacentHTML(
-            "beforeend",
-            '<label class="fa"><span>↑ / ↓ 切换</span><span>Tab / 空格 选中</span></label>'
-          );
+        data.results[0].value.hasOwnProperty("shortcut") && list.insertAdjacentHTML("beforeend", '<label class="fa"><span>↑ / ↓ 切换</span><span>Tab / 空格 选中</span></label>');
       }
     },
     resultItem: {
@@ -406,8 +398,7 @@ import autoComplete from "./autoComplete";
           // As for **Enter** key, "selection" event is faster than "keydown"!
           if (event.key === "Enter") {
             event.preventDefault();
-            const keyword =
-              state === -1 ? inputVal : this.ctx.list.children[state].innerText;
+            const keyword = state === -1 ? inputVal : this.ctx.list.children[state].innerText;
             searchEngineConfig.dash(keyword);
             this.ctx.close();
           } else if (event.key === " " || event.key === "Tab") {
@@ -416,11 +407,7 @@ import autoComplete from "./autoComplete";
             this.ctx.isOpen && state > -1 && this.ctx.select(state);
           }
         } else if (this.ctx.isOpen && inputVal.startsWith("#")) {
-          if (
-            event.key === "Enter" ||
-            event.key === " " ||
-            event.key === "Tab"
-          ) {
+          if (event.key === "Enter" || event.key === " " || event.key === "Tab") {
             event.preventDefault();
             this.ctx.select(state === -1 ? 0 : state);
           }
