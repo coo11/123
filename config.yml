@@ -286,6 +286,7 @@ bookmark:
     favicon: tableconvert.png
   - name: IP
     url: https://ip.skk.moe/
+    favicon: ip.png
   - name: InternetArchive
     url: https://archive.org/web/
     favicon: internetarchive.png
