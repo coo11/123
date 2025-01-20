@@ -325,6 +325,8 @@ bookmark:
     # url: http://speed.bj.10086.cn:3060/
     # 广东电信宽带测速平台
     # url: https://10000.gd.cn/#/speed
+  - name: 文本对比
+    url: https://diffsuite.com/zh/
   - name: <b>Index</b>
     newTab: true
     url: https://t.ehhh.eu.org/
@@ -372,7 +374,7 @@ bookmark:
   - name: PhotoFun
     url: https://www.photofun.cn/compress/
   - name: Watermark
-    url: http://watermark.dxcweb.com/
+    url: https://watermark.yycc.dev/ # https://github.com/funnyzak/watermark
   - name: EZGIF
     url: https://ezgif.com
   - name: ImgOps
@@ -395,7 +397,8 @@ bookmark:
     url: https://mega.nz/fm/
     favicon: mega.png
   - name: Wokers
-    url: https://dash.cloudflare.com/?account=workers
+    url: https://workers.cloudflare.com/playground
+    # url: https://dash.cloudflare.com/?account=workers
     favicon: workers.png
   - name: Apps Script
     url: https://script.google.com/home
