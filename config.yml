@@ -168,8 +168,10 @@ bookmark:
   - name: DeepSeek
     url: https://chat.deepseek.com/
     favicon: deepseek.png
-  - name: 通义千问
-    url: https://tongyi.aliyun.com/qianwen/
+  # - name: 通义千问
+  #   url: https://tongyi.aliyun.com/qianwen/
+  - name: Qwen
+    url: https://chat.qwenlm.ai/
     favicon: tongyi.png
   - name: 文心一言
     url: https://yiyan.baidu.com/
