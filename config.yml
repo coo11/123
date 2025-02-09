@@ -94,9 +94,6 @@ bookmark:
   - name: Discord
     url: https://discord.com/channels/@me
     favicon: discord.png
-  - name: Spotify
-    url: https://open.spotify.com/
-    favicon: spotify.png
   - name: TikTok
     url: https://www.tiktok.com
     favicon: tiktok.png
@@ -147,10 +144,13 @@ bookmark:
   # - name: 看雪
   #   url: https://bbs.kanxue.com/
 
-  - category: AI
+  - category: LLM
   - name: ChatGPT
     url: https://chatgpt.com/
     favicon: chatgpt.png
+  - name: DeepSeek
+    url: https://chat.deepseek.com/
+    favicon: deepseek.png
   - name: Claude
     url: https://claude.ai/
     favicon: claude.png
@@ -165,9 +165,6 @@ bookmark:
   - name: Gemini
     url: https://gemini.google.com/app
     favicon: gemini.png
-  - name: DeepSeek
-    url: https://chat.deepseek.com/
-    favicon: deepseek.png
   # - name: 通义千问
   #   url: https://tongyi.aliyun.com/qianwen/
   - name: Qwen
@@ -183,14 +180,14 @@ bookmark:
   - name: LMSYS Arena
     url: https://chat.lmsys.org/
     favicon: gradio.png
-  - name: Hugging Face
-    url: https://huggingface.co/
-    favicon: huggingface.png
 
   - category: Dev
   - name: StackOverflow
     url: https://stackoverflow.com
     favicon: stackoverflow.png
+  - name: Hugging Face
+    url: https://huggingface.co/
+    favicon: huggingface.png
   # - name: SuperUser
   #   url: https://superuser.com
   # - name: MDN
@@ -485,6 +482,9 @@ bookmark:
     favicon: more.png
 
   - category: Audio
+  - name: Spotify
+    url: https://open.spotify.com/
+    favicon: spotify.png
   - name: musicForProgramming
     url: https://musicforprogramming.net
   - name: Noises.online
