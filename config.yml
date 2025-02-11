@@ -509,7 +509,7 @@ bookmark:
   - category: Life
   - name: 默沙东诊疗手册
     url: https://www.msdmanuals.cn/home
-    favicon: merck.svg
+    favicon: merck.png
   - name: 12306
     url: https://www.12306.cn/index/
     favicon: railway12306.png
