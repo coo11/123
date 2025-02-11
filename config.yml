@@ -66,8 +66,10 @@ bookmark:
   - name: Rentry.co
     url: https://rentry.co/m5
     favicon: rentryco.png
-  - name: Telegraph
-    url: https://telegra.ph
+  - name: Paste.ee
+    url: https://paste.ee/
+  # - name: Telegraph
+  #   url: https://telegra.ph
   # - name: GIR
   #   url: https://coo11.github.io/gir/
   #   favicon: pic.png
@@ -151,6 +153,14 @@ bookmark:
   - name: DeepSeek
     url: https://chat.deepseek.com/
     favicon: deepseek.png
+  - name: Gemini
+    url: https://gemini.google.com/app
+    favicon: gemini.png
+  # - name: 通义千问
+  #   url: https://tongyi.aliyun.com/qianwen/
+  - name: Qwen
+    url: https://chat.qwenlm.ai/
+    favicon: qwen.png
   - name: Claude
     url: https://claude.ai/
     favicon: claude.png
@@ -162,14 +172,6 @@ bookmark:
     url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
     # url: https://chat.bing.com
     favicon: mscopilot.png
-  - name: Gemini
-    url: https://gemini.google.com/app
-    favicon: gemini.png
-  # - name: 通义千问
-  #   url: https://tongyi.aliyun.com/qianwen/
-  - name: Qwen
-    url: https://chat.qwenlm.ai/
-    favicon: tongyi.png
   - name: 文心一言
     url: https://yiyan.baidu.com/
     favicon: yiyan.png
@@ -367,10 +369,7 @@ bookmark:
     url: https://zh.pixfix.com
     favicon: pixfix.png
   - name: waifu2x
-    url: https://waifu2x.booru.pics/
-    # Alternatives
-    # https://waifu2x.me/
-    # https://waifu2x.udp.jp/
+    url: https://www.waifu2x.net/index.zh-CN.html
   # - name: TinyPNG
   # url: https://tinypng.com
   - name: PhotoFun
@@ -507,10 +506,27 @@ bookmark:
     url: https://www.mathway.com/zh/Algebra
     favicon: mathway.png
 
-  - category: Unclassified
+  - category: Life
+  - name: 默沙东诊疗手册
+    url: https://www.msdmanuals.cn/home
+    favicon: merck.svg
   - name: 12306
     url: https://www.12306.cn/index/
     favicon: railway12306.png
+  #- name: 天气网
+  #  url: http://www.weather.com.cn/
+  #  favicon: cnweather.png
+  - name: 天眼查
+    url: https://www.tianyancha.com
+    favicon: tianyancha.png
+  - name: 企查查
+    url: https://www.qcc.com
+    favicon: qichacha.png
+  - name: 历史价格查询
+    url: https://www.lsjgcx.com
+
+
+  - category: Unclassified
   - name: Applist
     newTab: true
     url: https://rentry.co/applist
@@ -529,28 +545,15 @@ bookmark:
     url: https://bbs.imoutolove.me/thread.php?fid-9.html
   - name: IMDb
     url: https://www.imdb.com
-  - name: 天眼查
-    url: https://www.tianyancha.com
-    favicon: tianyancha.png
-  - name: 企查查
-    url: https://www.qcc.com
-    favicon: qichacha.png
-  - name: 历史价格查询
-    url: https://www.lsjgcx.com
   - name: SteamDB
     url: https://steamdb.info
     favicon: steamdb.png
     faviconAlt: steamdb_d.png
-  # - name: Humble
-  #   url: https://www.humblebundle.com
   - name: MusicBrainZ
     url: https://musicbrainz.org/search
     favicon: musicbrainz.png
   - name: 福利吧
     url: https://fuliba.net
-  #- name: 天气网
-  #  url: http://www.weather.com.cn/
-  #  favicon: cnweather.png
 
   # - category: NSFW
   # - name: E-Hentai
