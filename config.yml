@@ -234,6 +234,7 @@ bookmark:
   - name: Google
     url: https://www.google.com/ncr
     favicon: google.png
+    faviconAlt: google_d.png
   - name: Yandex搜图
     url: https://yandex.com/images/
     favicon: yandeximage.png
