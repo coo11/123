@@ -133,6 +133,7 @@ bookmark:
   - name: Stage1st
     url: https://bbs.saraba1st.com/2b/forum-75-1.html
     # url: https://bbs.saraba1st.com/2b/forum.php
+    favicon: stage1st.png
   - name: 知乎
     url: https://www.zhihu.com
     favicon: zhihu.png
@@ -335,7 +336,7 @@ bookmark:
   - name: <b>Index</b>
     newTab: true
     url: https://t.ehhh.eu.org/
-    favicon: yinyang.png
+    favicon: pokeball.png
 
   - category: Consume
   - name: 京东
