@@ -146,6 +146,9 @@ bookmark:
     favicon: hackernews.png
   # - name: 看雪
   #   url: https://bbs.kanxue.com/
+  - name: 茶馆
+    url: https://bbs.imoutolove.me/thread.php?fid-9.html
+    favicon: soulplus.png
 
   - category: LLM
   - name: ChatGPT
@@ -543,8 +546,6 @@ bookmark:
   - name: Github✋⭐
     url: https://rentry.co/githubnostar
     favicon: github.png
-  - name: 🍵茶馆
-    url: https://bbs.imoutolove.me/thread.php?fid-9.html
   - name: IMDb
     url: https://www.imdb.com
   - name: SteamDB
