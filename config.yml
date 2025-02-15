@@ -204,9 +204,6 @@ bookmark:
   - name: JSFiddle
     url: https://jsfiddle.net
     favicon: jsfiddle.png
-  - name: FOFA
-    url: https://fofa.info/
-    favicon: fofa.png
     faviconAlt: fofa_d.png
   - name: GitLab
     url: https://gitlab.com
@@ -214,6 +211,8 @@ bookmark:
   - name: VSCode
     url: https://vscode.dev/
     favicon: vscode.png
+  - name: CanIUse
+    url: https://caniuse.com/
   - name: Carbon
     url: https://carbon.now.sh
   - name: Minifier
@@ -221,7 +220,7 @@ bookmark:
     favicon: terser.png
   - name: CyberChef
     url: https://gchq.github.io/CyberChef/
-    favicon: chef.png
+    favicon: cyberchef.png
   - name: JSON Editor
     url: https://jsoneditoronline.com/
     favicon: json.png
@@ -293,6 +292,9 @@ bookmark:
   - name: TableConvert
     url: https://tableconvert.com
     favicon: tableconvert.png
+  - name: FOFA
+    url: https://fofa.info/
+    favicon: fofa.png
   - name: IP
     url: https://ip.skk.moe/
     favicon: ip.png
