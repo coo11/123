@@ -172,22 +172,22 @@ bookmark:
     url: https://claude.ai/
     favicon: claude.png
     faviconAlt: claude_d.png
-  - name: MistralAI
+  - name: Mistral
     url: https://chat.mistral.ai/
-    favicon: mistralai.png
+    favicon: mistral.png
   - name: Copilot
     url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
     # url: https://chat.bing.com
     favicon: mscopilot.png
-  - name: 文心一言
-    url: https://yiyan.baidu.com/
-    favicon: yiyan.png
-  - name: Poe
-    url: https://poe.com/
-    favicon: poe.png
-    faviconAlt: poe_d.png
-  - name: LMSYS Arena
-    url: https://chat.lmsys.org/
+  # - name: 文心一言
+  #   url: https://yiyan.baidu.com/
+  #   favicon: yiyan.png
+  # - name: Poe
+  #   url: https://poe.com/
+  #   favicon: poe.png
+  #   faviconAlt: poe_d.png
+  - name: LMArena
+    url: https://lmarena.ai/?leaderboard
     favicon: gradio.png
 
   - category: Dev
