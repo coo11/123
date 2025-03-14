@@ -157,17 +157,20 @@ bookmark:
   - name: ChatGPT
     url: https://chatgpt.com/
     favicon: chatgpt.png
-  - name: DeepSeek
-    url: https://chat.deepseek.com/
-    favicon: deepseek.png
-  - name: Gemini
-    url: https://gemini.google.com/app
-    favicon: gemini.png
-  # - name: 通义千问
-  #   url: https://tongyi.aliyun.com/qianwen/
   - name: Qwen
     url: https://chat.qwen.ai/
     favicon: qwen.png
+  - name: DeepSeek
+    url: https://chat.deepseek.com/
+    favicon: deepseek.png
+  - name: AI Studio
+    url: https://aistudio.google.com/prompts/new_chat
+    favicon: google.png
+    faviconAlt: google_d.png
+  - name: Gemini
+    url: https://gemini.google.com/app
+  # - name: 通义千问
+  #   url: https://tongyi.aliyun.com/qianwen/
   - name: Claude
     url: https://claude.ai/
     favicon: claude.png
