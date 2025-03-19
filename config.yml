@@ -399,6 +399,7 @@ bookmark:
     faviconAlt: unsplash_d.png
   - name: BoxySVG
     url: https://boxy-svg.com/app
+    favicon: boxsvg.png
 
   - category: Cloud Service
   - name: 坚果云
