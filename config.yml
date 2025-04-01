@@ -99,7 +99,6 @@ bookmark:
   - name: TikTok
     url: https://www.tiktok.com
     favicon: tiktok.png
-    faviconAlt: tiktok_d.png
   - name: Twitch
     url: https://www.twitch.tv
     favicon: twitch.png
