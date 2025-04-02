@@ -99,6 +99,7 @@ bookmark:
   - name: TikTok
     url: https://www.tiktok.com
     favicon: tiktok.png
+    faviconAlt: tiktok_d.png
   - name: Twitch
     url: https://www.twitch.tv
     favicon: twitch.png
@@ -244,6 +245,19 @@ bookmark:
     url: https://www.google.com/ncr
     favicon: google.png
     faviconAlt: google_d.png
+  - name: Bing
+    url: https://www.bing.com
+    favicon: bing.png
+  - name: DuckDuckGo
+    url: https://duckduckgo.com/
+  - name: WolframAlpha
+    url: https://www.wolframalpha.com/
+    favicon: wolframalpha.png
+  - name: Startpage
+    url: https://startpage.com
+  - name: Google学术
+    url: https://scholar.google.com
+    favicon: googlescolar.png
   - name: Yandex搜图
     url: https://yandex.com/images/
     favicon: yandeximage.png
@@ -253,14 +267,6 @@ bookmark:
   # - name: 百度识图
   #   url: https://image.baidu.com/?fr=shitu
   #   favicon: baidu.png
-  - name: Bing
-    url: https://www.bing.com
-    favicon: bing.png
-  - name: WolframAlpha
-    url: https://www.wolframalpha.com/
-    favicon: wolframalpha.png
-  - name: Startpage
-    url: https://startpage.com
   - name: SauceNAO
     url: https://saucenao.com
     favicon: saucenao.png
@@ -271,9 +277,6 @@ bookmark:
   # - name: Twitter 高级搜索
   #   url: https://twitter.com/search-advanced
   #   favicon: twitter.png
-  - name: Google学术
-    url: https://scholar.google.com
-    favicon: googlescolar.png
   - name: WAIT
     url: https://trace.moe/
   - name: 搜图Bot酱
@@ -310,7 +313,9 @@ bookmark:
     faviconAlt: internetarchive_d.png
   - name: Archive.today
     url: https://archive.is
-  - name: ウェブ魚拓
+  # - name: Gyotaku
+  # - name: ウェブ魚拓
+  - name: 魚拓
     url: https://megalodon.jp/
   - name: AriaNg
     # Search instances: https://www.google.com/search?q=0.00+B%2Fs+AriaNg
@@ -342,7 +347,7 @@ bookmark:
     # url: http://speed.bj.10086.cn:3060/
     # 广东电信宽带测速平台
     # url: https://10000.gd.cn/#/speed
-  - name: 文本对比
+  - name: Text Compare
     url: https://diffsuite.com/zh/
   - name: <b>Index</b>
     newTab: true
@@ -462,8 +467,8 @@ bookmark:
   #   url: https://konachan.com/post
   #   favicon: konachan.png
   - name: 番组计划
-    #  url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
-    url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
+    url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
+    # url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
   # - name: AcFun
   #   url: https://www.acfun.cn
   #   favicon: acfun.png
@@ -521,15 +526,16 @@ bookmark:
     favicon: mathway.png
 
   - category: Life
-  - name: 默沙东诊疗手册
+  # - name: 默沙东诊疗手册
+  - name: 默氏手册
     url: https://www.msdmanuals.cn/home
     favicon: merck.png
   - name: 12306
     url: https://www.12306.cn/index/
     favicon: railway12306.png
-  #- name: 天气网
-  #  url: http://www.weather.com.cn/
-  #  favicon: cnweather.png
+  # - name: 天气网
+  #   url: http://www.weather.com.cn/
+  #   favicon: cnweather.png
   - name: 天眼查
     url: https://www.tianyancha.com
     favicon: tianyancha.png
