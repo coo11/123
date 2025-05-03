@@ -229,7 +229,8 @@ bookmark:
     url: https://gchq.github.io/CyberChef/
     favicon: cyberchef.png
   - name: JSON Editor
-    url: https://jsoneditoronline.com/
+    # url: https://jsoneditoronline.com/
+    url: https://t.ehhh.eu.org/jsoneditor/
     favicon: json.png
     faviconAlt: json_d.png
   - name: REQBIN
@@ -350,6 +351,7 @@ bookmark:
   - name: Text Compare
     url: https://diffsuite.com/zh/
   - name: <b>Index</b>
+  # - name: 妙妙小工具
     newTab: true
     url: https://t.ehhh.eu.org/
     favicon: pokeball.png
