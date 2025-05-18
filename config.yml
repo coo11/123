@@ -158,6 +158,8 @@ bookmark:
   - name: ChatGPT
     url: https://chatgpt.com/
     favicon: chatgpt.png
+  # - name: 通义千问
+  #   url: https://tongyi.aliyun.com/qianwen/
   - name: Qwen
     url: https://chat.qwen.ai/
     favicon: qwen.png
@@ -170,12 +172,9 @@ bookmark:
     faviconAlt: google_d.png
   - name: Gemini
     url: https://gemini.google.com/app
-  # - name: 通义千问
-  #   url: https://tongyi.aliyun.com/qianwen/
   - name: Claude
     url: https://claude.ai/
     favicon: claude.png
-    faviconAlt: claude_d.png
   - name: Mistral
     url: https://chat.mistral.ai/
     favicon: mistral.png
