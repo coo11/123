@@ -38,6 +38,7 @@ bookmark:
   - name: Notion
     url: https://www.notion.so/
     favicon: notion.png
+    faviconAlt: notion_d.png
   - name: Telegram
     #  url: https://web.telegram.org/k/
     url: https://web.telegram.org/a/
