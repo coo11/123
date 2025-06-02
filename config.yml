@@ -10,6 +10,7 @@ bookmark:
     url: https://mail.qq.com
     favicon: qqmail.png
   - name: Outlook
+    #  url: https://go.microsoft.com/fwlink/p/?LinkID=2125442
     url: https://outlook.live.com/mail/0/inbox
     favicon: outlook.png
   - name: 163邮箱
@@ -318,6 +319,8 @@ bookmark:
   # - name: ウェブ魚拓
   - name: 魚拓
     url: https://megalodon.jp/
+  - name: r12a
+    url: https://r12a.github.io/app-encodings/
   - name: AriaNg
     # Search instances: https://www.google.com/search?q=0.00+B%2Fs+AriaNg
     # url: http://ariang.mayswind.net/latest/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
@@ -338,8 +341,9 @@ bookmark:
     favicon: helloworld.png
   - name: HTML Cleaner
     url: https://html-cleaner.com
-  - name: r12a
-    url: https://r12a.github.io/app-encodings/
+  - name: Markdown
+    url: https://markdownlivepreview.com/
+    favicon: markdown.png
   - name: Speedtest
     url: https://test.ustc.edu.cn/
     # Nanjing University Speed Test
