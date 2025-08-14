@@ -3,7 +3,7 @@
   <br>coo11's start page V2<br>
 </h1>
 
-<h4 align="center">Simple, customizable & powerful start page, try it <a href="https://123.coo11.eu.org/">here</a></h4>
+<h4 align="center">Simple, customizable & powerful start page, try it <a href="https://coo11.github.io/123/">here</a></h4>
 
 <p align="center">
   <a href="https://github.com/coo11/123/actions">

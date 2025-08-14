@@ -69,7 +69,8 @@ bookmark:
     url: https://rentry.co/m5
     favicon: rentryco.png
   - name: Paste.ee
-    url: https://paste.ee/
+    # url: https://paste.ee/
+    url: https://pastee.dev/
   # - name: Telegraph
   #   url: https://telegra.ph
   # - name: GIR
@@ -79,9 +80,9 @@ bookmark:
     url: https://mazhuren.com
     favicon: qrcode.png
   - name: Netcut
-    url: https://netcut.cn/
-    favicon: netcut.png
-    faviconAlt: netcut_d.png
+    url: https://webnote.cc/
+    favicon: webnote.png
+    faviconAlt: webnote_d.png
   - name: <b>More</b>
     newTab: true
     url: https://rentry.co/g1
@@ -102,18 +103,15 @@ bookmark:
     url: https://www.tiktok.com
     favicon: tiktok.png
     faviconAlt: tiktok_d.png
-  - name: Twitch
-    url: https://www.twitch.tv
-    favicon: twitch.png
-  - name: 虎牙
-    url: https://www.huya.com
-    favicon: huya.png
-  - name: 斗鱼
-    url: https://www.douyu.com
-    favicon: douyu.png
+  - name: 小红书
+    url: https://www.xiaohongshu.com/explore
+    favicon: xiaohongshu.png
   - name: LOFTER
     url: https://www.lofter.com/
     favicon: lofter.png
+  - name: Bluesky
+    url: https://bsky.app/
+    favicon: bluesky.png
 
   - category: Forum
   - name: NGA
@@ -137,8 +135,8 @@ bookmark:
     url: http://bbs.pcbeta.com/forum.php
     favicon: pcbeta.png
   - name: Stage1st
-    url: https://bbs.saraba1st.com/2b/forum-75-1.html
-    # url: https://bbs.saraba1st.com/2b/forum.php
+    # url: https://stage1st.com/2b/forum-75-1.html
+    url: https://stage1st.com/2b/forum.php
     favicon: stage1st.png
   - name: 知乎
     url: https://www.zhihu.com
@@ -158,7 +156,7 @@ bookmark:
 
   - category: LLM
   - name: ChatGPT
-    url: https://chatgpt.com/
+    url: https://chatgpt.com/?model=auto&temporary-chat=true
     favicon: chatgpt.png
   # - name: 通义千问
   #   url: https://tongyi.aliyun.com/qianwen/
@@ -174,16 +172,21 @@ bookmark:
     faviconAlt: google_d.png
   - name: Gemini
     url: https://gemini.google.com/app
+    favicon: gemini.png
   - name: Claude
     url: https://claude.ai/
     favicon: claude.png
-  - name: Mistral
-    url: https://chat.mistral.ai/
-    favicon: mistral.png
+  # - name: Mistral
+  #   url: https://chat.mistral.ai/
+  #   favicon: mistral.png
   - name: Copilot
-    url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
-    # url: https://chat.bing.com
+    # url: https://edgeservices.bing.com/edgesvc/chat?clientscopes=chat,moblike,mobfull
+    url: https://copilot.microsoft.com/
     favicon: mscopilot.png
+  - name: Grok
+    url: https://grok.com/
+    favicon: grok.png
+    faviconAlt: grok_d.png
   # - name: 文心一言
   #   url: https://yiyan.baidu.com/
   #   favicon: yiyan.png
@@ -191,9 +194,10 @@ bookmark:
   #   url: https://poe.com/
   #   favicon: poe.png
   #   faviconAlt: poe_d.png
-  - name: LMArena
-    url: https://lmarena.ai/?leaderboard
-    favicon: gradio.png
+  - name: Arena
+    url: https://arena.ai/
+    favicon: arena.png
+    faviconAlt: arena_d.png
 
   - category: Dev
   - name: StackOverflow
@@ -266,9 +270,9 @@ bookmark:
   # - name: Google 图片
   #   url: https://images.google.com
   #   favicon: google.png
-  # - name: 百度识图
-  #   url: https://image.baidu.com/?fr=shitu
-  #   favicon: baidu.png
+  - name: 百度识图
+    url: https://graph.baidu.com/pcpage/index
+    favicon: baidu.png
   - name: SauceNAO
     url: https://saucenao.com
     favicon: saucenao.png
@@ -291,7 +295,7 @@ bookmark:
     url: https://voice.google.com/messages
     favicon: googlevoice.png
   - name: Inoreader
-    url: https://jp.inoreader.com/zh-hans/
+    url: https://www.inoreader.com/zh-hans/
     favicon: inoreader.png
   - name: SYMBL
     url: https://symbl.cc/cn/unicode-table/
@@ -360,6 +364,27 @@ bookmark:
     url: https://t.ehhh.eu.org/
     favicon: pokeball.png
 
+  - category: Streaming Media
+  - name: Twitch
+    url: https://www.twitch.tv
+    favicon: twitch.png
+  - name: 虎牙
+    url: https://www.huya.com
+    favicon: huya.png
+  - name: 斗鱼
+    url: https://www.douyu.com
+    favicon: douyu.png
+  - name: Spotify
+    url: https://open.spotify.com/
+    favicon: spotify.png
+  - name: 网易云音乐
+    url: https://music.163.com/#/my/
+    favicon: neteasemusic.png
+  - name: 抖音直播
+    url: https://live.douyin.com/
+    favicon: tiktok.png
+    faviconAlt: tiktok_d.png
+
   - category: Consume
   - name: 京东
     url: https://search.jd.com
@@ -368,13 +393,14 @@ bookmark:
     url: https://search.taobao.com
     favicon: taobao.png
   - name: 闲鱼
-    url: https://2.taobao.com
-  - name: 饿了么
-    url: https://h5.ele.me
-    favicon: eleme.png
-  - name: 美团
-    url: https://h5.waimai.meituan.com/waimai/mindex/home
-    favicon: meituanwaimai.png
+    url: https://www.goofish.com/
+    favicon: xianyu.png
+  # - name: 饿了么
+  #   url: https://h5.ele.me
+  #   favicon: eleme.png
+  # - name: 美团
+  #   url: https://h5.waimai.meituan.com/waimai/mindex/home
+  #   favicon: meituanwaimai.png
   - name: 1688
     url: https://search.1688.com
     favicon: alibaba.png
@@ -400,17 +426,28 @@ bookmark:
     url: https://www.photofun.cn/compress/
   - name: Watermark
     url: https://watermark.yycc.dev/ # https://github.com/funnyzak/watermark
-  - name: EZGIF
-    url: https://ezgif.com
-  - name: ImgOps
-    url: https://imgops.com
+  - name: Forensically
+    url: https://29a.ch/photo-forensics/
+  # - name: ImgOps
+  #   url: https://imgops.com
+  - name: PSDTool
+    url: https://oov.github.io/psdtool/
+    favicon: github.png
+    faviconAlt: github_d.png
+  - name: SvgPathEditor
+    url: https://yqnn.github.io/svg-path-editor/
+  - name: BoxySVG
+    url: https://boxy-svg.com/app
+    favicon: boxsvg.png
   - name: Unsplash
     url: https://unsplash.com/
     favicon: unsplash.png
     faviconAlt: unsplash_d.png
-  - name: BoxySVG
-    url: https://boxy-svg.com/app
-    favicon: boxsvg.png
+  - name: Draw.io
+    url: https://app.diagrams.net/
+    favicon: drawio.png
+  - name: EZGIF
+    url: https://ezgif.com
 
   - category: Cloud Service
   - name: 坚果云
@@ -446,13 +483,14 @@ bookmark:
     url: https://pan.baidu.com/disk/home
     favicon: baidunetdisk.png
   - name: 阿里云盘
-    url: https://www.aliyundrive.com/drive
+    url: https://www.alipan.com/drive/file/all
     favicon: aliyundrive.png
   - name: PikPak
     url: https://mypikpak.com/drive/all
     favicon: pikpak.png
   - name: 蓝奏云
     url: https://up.woozooo.com/
+    favicon: lanzou.png
 
   - category: ACG
   - name: Danbooru
@@ -465,7 +503,7 @@ bookmark:
     url: https://yande.re/post
     favicon: yandere.png
   - name: Kemono
-    url: https://kemono.party/artists
+    url: https://kemono.cr/artists
     favicon: kemono.png
   # - name: Sankaku
   #   url: https://sankaku.app/zh-CN
@@ -475,6 +513,7 @@ bookmark:
   - name: 番组计划
     url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
     # url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
+    favicon: bangumi.png
   # - name: AcFun
   #   url: https://www.acfun.cn
   #   favicon: acfun.png
@@ -506,20 +545,6 @@ bookmark:
     url: https://rentry.co/acg
     favicon: more.png
 
-  - category: Audio
-  - name: Spotify
-    url: https://open.spotify.com/
-    favicon: spotify.png
-  - name: 网易云音乐
-    url: https://music.163.com/#/my/
-    favicon: neteasemusic.png
-  - name: musicForProgramming
-    url: https://musicforprogramming.net
-  - name: Noises.online
-    url: https://noises.online
-  - name: AHA Music
-    url: https://www.aha-music.com/upload
-
   - category: Calc
   - name: NumberEmpire
     url: https://zh.numberempire.com/
@@ -540,6 +565,9 @@ bookmark:
   - name: 默氏手册
     url: https://www.msdmanuals.cn/home
     favicon: merck.png
+  - name: 小时百科
+    url: https://wuli.wiki/online/index.html
+    favicon: wuliwiki.png
   - name: 12306
     url: https://www.12306.cn/index/
     favicon: railway12306.png
@@ -552,6 +580,8 @@ bookmark:
   - name: 企查查
     url: https://www.qcc.com
     favicon: qichacha.png
+  - name: 88查
+    url: https://88cha.com/search
   - name: 历史价格查询
     url: https://www.lsjgcx.com
 
@@ -580,8 +610,17 @@ bookmark:
   - name: MusicBrainZ
     url: https://musicbrainz.org/search
     favicon: musicbrainz.png
+  - name: 米画师
+    url: https://www.mihuashi.com/artworks?type=subscribe
+    favicon: mihuashi.png
   - name: 福利吧
     url: https://fuliba.net
+  - name: musicForProgramming
+    url: https://musicforprogramming.net
+  - name: Noises.online
+    url: https://noises.online
+  - name: AHA Music
+    url: https://www.aha-music.com/upload
 
   # - category: NSFW
   # - name: E-Hentai
@@ -589,9 +628,9 @@ bookmark:
   # - name: ExHentai
   #   url: https://exhentai.org/
   # - name: 绅士仓库
-  #   url: https://galacg.github.io/
+  #   url: https://cangku.moe/
   # - name: 琉璃神社⛩
-  #   url: https://acg.gy/
+  #   url: https://hacg.casa/wp/
   # - name: 紳士の庭🎩
   #   url: https://gmgard.com/
   # - name: HVDB
