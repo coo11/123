@@ -102,15 +102,9 @@ bookmark:
     url: https://www.tiktok.com
     favicon: tiktok.png
     faviconAlt: tiktok_d.png
-  - name: Twitch
-    url: https://www.twitch.tv
-    favicon: twitch.png
-  - name: 虎牙
-    url: https://www.huya.com
-    favicon: huya.png
-  - name: 斗鱼
-    url: https://www.douyu.com
-    favicon: douyu.png
+  - name: 小红书
+    url: https://www.xiaohongshu.com/explore
+    favicon: xiaohongshu.png
   - name: LOFTER
     url: https://www.lofter.com/
     favicon: lofter.png
@@ -158,7 +152,7 @@ bookmark:
 
   - category: LLM
   - name: ChatGPT
-    url: https://chatgpt.com/
+    url: https://chatgpt.com/?model=auto&temporary-chat=true
     favicon: chatgpt.png
   # - name: 通义千问
   #   url: https://tongyi.aliyun.com/qianwen/
@@ -360,6 +354,23 @@ bookmark:
     url: https://t.ehhh.eu.org/
     favicon: pokeball.png
 
+  - category: Streaming Media
+  - name: Twitch
+    url: https://www.twitch.tv
+    favicon: twitch.png
+  - name: 虎牙
+    url: https://www.huya.com
+    favicon: huya.png
+  - name: 斗鱼
+    url: https://www.douyu.com
+    favicon: douyu.png
+  - name: Spotify
+    url: https://open.spotify.com/
+    favicon: spotify.png
+  - name: 网易云音乐
+    url: https://music.163.com/#/my/
+    favicon: neteasemusic.png
+
   - category: Consume
   - name: 京东
     url: https://search.jd.com
@@ -402,12 +413,14 @@ bookmark:
     url: https://watermark.yycc.dev/ # https://github.com/funnyzak/watermark
   - name: EZGIF
     url: https://ezgif.com
-  - name: ImgOps
-    url: https://imgops.com
+  # - name: ImgOps
+  #   url: https://imgops.com
   - name: Unsplash
     url: https://unsplash.com/
     favicon: unsplash.png
     faviconAlt: unsplash_d.png
+  - name: SvgPathEditor
+    url: https://yqnn.github.io/svg-path-editor/
   - name: BoxySVG
     url: https://boxy-svg.com/app
     favicon: boxsvg.png
@@ -506,20 +519,6 @@ bookmark:
     url: https://rentry.co/acg
     favicon: more.png
 
-  - category: Audio
-  - name: Spotify
-    url: https://open.spotify.com/
-    favicon: spotify.png
-  - name: 网易云音乐
-    url: https://music.163.com/#/my/
-    favicon: neteasemusic.png
-  - name: musicForProgramming
-    url: https://musicforprogramming.net
-  - name: Noises.online
-    url: https://noises.online
-  - name: AHA Music
-    url: https://www.aha-music.com/upload
-
   - category: Calc
   - name: NumberEmpire
     url: https://zh.numberempire.com/
@@ -582,6 +581,12 @@ bookmark:
     favicon: musicbrainz.png
   - name: 福利吧
     url: https://fuliba.net
+  - name: musicForProgramming
+    url: https://musicforprogramming.net
+  - name: Noises.online
+    url: https://noises.online
+  - name: AHA Music
+    url: https://www.aha-music.com/upload
 
   # - category: NSFW
   # - name: E-Hentai
