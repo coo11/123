@@ -108,6 +108,9 @@ bookmark:
   - name: LOFTER
     url: https://www.lofter.com/
     favicon: lofter.png
+  - name: Bluesky
+    url: https://bsky.app/
+    favicon: bluesky.png
 
   - category: Forum
   - name: NGA
@@ -285,7 +288,7 @@ bookmark:
     url: https://voice.google.com/messages
     favicon: googlevoice.png
   - name: Inoreader
-    url: https://jp.inoreader.com/zh-hans/
+    url: https://www.inoreader.com/zh-hans/
     favicon: inoreader.png
   - name: SYMBL
     url: https://symbl.cc/cn/unicode-table/
@@ -370,6 +373,10 @@ bookmark:
   - name: 网易云音乐
     url: https://music.163.com/#/my/
     favicon: neteasemusic.png
+  - name: 抖音直播
+    url: https://live.douyin.com/
+    favicon: tiktok.png
+    faviconAlt: tiktok_d.png
 
   - category: Consume
   - name: 京东
@@ -380,12 +387,13 @@ bookmark:
     favicon: taobao.png
   - name: 闲鱼
     url: https://2.taobao.com
-  - name: 饿了么
-    url: https://h5.ele.me
-    favicon: eleme.png
-  - name: 美团
-    url: https://h5.waimai.meituan.com/waimai/mindex/home
-    favicon: meituanwaimai.png
+    favicon: xianyu.png
+  # - name: 饿了么
+  #   url: https://h5.ele.me
+  #   favicon: eleme.png
+  # - name: 美团
+  #   url: https://h5.waimai.meituan.com/waimai/mindex/home
+  #   favicon: meituanwaimai.png
   - name: 1688
     url: https://search.1688.com
     favicon: alibaba.png
@@ -459,7 +467,7 @@ bookmark:
     url: https://pan.baidu.com/disk/home
     favicon: baidunetdisk.png
   - name: 阿里云盘
-    url: https://www.aliyundrive.com/drive
+    url: https://www.alipan.com/drive/file/all
     favicon: aliyundrive.png
   - name: PikPak
     url: https://mypikpak.com/drive/all
@@ -539,6 +547,9 @@ bookmark:
   - name: 默氏手册
     url: https://www.msdmanuals.cn/home
     favicon: merck.png
+  - name: 小时百科
+    url: https://wuli.wiki/online/index.html
+    favicon: wuliwiki.png
   - name: 12306
     url: https://www.12306.cn/index/
     favicon: railway12306.png
