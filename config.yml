@@ -285,7 +285,7 @@ bookmark:
     url: https://voice.google.com/messages
     favicon: googlevoice.png
   - name: Inoreader
-    url: https://jp.inoreader.com/zh-hans/
+    url: https://www.inoreader.com/zh-hans/
     favicon: inoreader.png
   - name: SYMBL
     url: https://symbl.cc/cn/unicode-table/
