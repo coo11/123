@@ -90,7 +90,7 @@ import autoComplete from "./autoComplete";
         name: "Twitter",
         shortcut: "#t",
         icon: "twitter.svg",
-        prefix: "https://twitter.com/search?q="
+        prefix: "https://x.com/search?q="
       },
       {
         name: "Bilibili",

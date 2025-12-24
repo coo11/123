@@ -419,8 +419,8 @@ bookmark:
     url: https://www.photofun.cn/compress/
   - name: Watermark
     url: https://watermark.yycc.dev/ # https://github.com/funnyzak/watermark
-  - name: EZGIF
-    url: https://ezgif.com
+  - name: Forensically
+    url: https://29a.ch/photo-forensics/
   # - name: ImgOps
   #   url: https://imgops.com
   - name: PSDTool
@@ -436,6 +436,8 @@ bookmark:
     url: https://unsplash.com/
     favicon: unsplash.png
     faviconAlt: unsplash_d.png
+  - name: EZGIF
+    url: https://ezgif.com
 
   - category: Cloud Service
   - name: 坚果云
