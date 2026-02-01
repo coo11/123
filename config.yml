@@ -436,6 +436,9 @@ bookmark:
     url: https://unsplash.com/
     favicon: unsplash.png
     faviconAlt: unsplash_d.png
+  - name: Draw.io
+    url: https://app.diagrams.net/
+    favicon: draw.io.png
   - name: EZGIF
     url: https://ezgif.com
 
