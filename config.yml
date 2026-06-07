@@ -267,9 +267,9 @@ bookmark:
   # - name: Google 图片
   #   url: https://images.google.com
   #   favicon: google.png
-  # - name: 百度识图
-  #   url: https://image.baidu.com/?fr=shitu
-  #   favicon: baidu.png
+  - name: 百度识图
+    url: https://graph.baidu.com/pcpage/index
+    favicon: baidu.png
   - name: SauceNAO
     url: https://saucenao.com
     favicon: saucenao.png
@@ -575,6 +575,8 @@ bookmark:
   - name: 企查查
     url: https://www.qcc.com
     favicon: qichacha.png
+  - name: 88查
+    url: https://88cha.com/search
   - name: 历史价格查询
     url: https://www.lsjgcx.com
 
