@@ -69,7 +69,8 @@ bookmark:
     url: https://rentry.co/m5
     favicon: rentryco.png
   - name: Paste.ee
-    url: https://paste.ee/
+    # url: https://paste.ee/
+    url: https://pastee.dev/
   # - name: Telegraph
   #   url: https://telegra.ph
   # - name: GIR
@@ -134,8 +135,8 @@ bookmark:
     url: http://bbs.pcbeta.com/forum.php
     favicon: pcbeta.png
   - name: Stage1st
-    url: https://bbs.saraba1st.com/2b/forum-75-1.html
-    # url: https://bbs.saraba1st.com/2b/forum.php
+    # url: https://stage1st.com/2b/forum-75-1.html
+    url: https://stage1st.com/2b/forum.php
     favicon: stage1st.png
   - name: 知乎
     url: https://www.zhihu.com
@@ -499,7 +500,7 @@ bookmark:
     url: https://yande.re/post
     favicon: yandere.png
   - name: Kemono
-    url: https://kemono.party/artists
+    url: https://kemono.cr/artists
     favicon: kemono.png
   # - name: Sankaku
   #   url: https://sankaku.app/zh-CN
@@ -620,9 +621,9 @@ bookmark:
   # - name: ExHentai
   #   url: https://exhentai.org/
   # - name: 绅士仓库
-  #   url: https://galacg.github.io/
+  #   url: https://cangku.moe/
   # - name: 琉璃神社⛩
-  #   url: https://acg.gy/
+  #   url: https://hacg.casa/wp/
   # - name: 紳士の庭🎩
   #   url: https://gmgard.com/
   # - name: HVDB
