@@ -50,6 +50,22 @@ import autoComplete from "./autoComplete";
         sug: "https://suggestqueries.google.com/complete/search?client=chrome&q={keyword}&callback="
       },
       {
+        name: "AI Mode",
+        shortcut: "#ga",
+        icon: "google.svg",
+        autoComplete: true,
+        prefix: "https://www.google.com/search?udm=50&q=",
+        sug: "https://suggestqueries.google.com/complete/search?client=chrome&q={keyword}&callback="
+      },
+      {
+        name: "No AI",
+        shortcut: "#gg",
+        icon: "google.svg",
+        autoComplete: true,
+        prefix: "https://www.google.com/search?udm=50&q=",
+        sug: "https://suggestqueries.google.com/complete/search?client=chrome&q={keyword}&callback="
+      },
+      {
         name: "百度",
         shortcut: "#bd",
         icon: "baidu.svg",
@@ -112,7 +128,7 @@ import autoComplete from "./autoComplete";
       },
       {
         name: "Github Gist",
-        shortcut: "#gg",
+        shortcut: "#gi",
         icon: "github.svg",
         prefix: "https://gist.github.com/search?q="
       },
@@ -133,13 +149,6 @@ import autoComplete from "./autoComplete";
         shortcut: "#zh",
         icon: "zhihu.svg",
         prefix: "https://www.zhihu.com/search?q="
-      },
-      {
-        name: "Danbooru",
-        shortcut: "#db",
-        icon: "danbooru.svg",
-        autoComplete: false,
-        prefix: "https://danbooru.donmai.us/posts?tags="
       },
       {
         name: "淘宝",
