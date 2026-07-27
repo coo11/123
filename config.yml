@@ -594,6 +594,7 @@ bookmark:
   - name: NoUse
     newTab: true
     url: https://rentry.co/u6
+    favicon: rentryco.png
   - name: LGUG
     newTab: true
     url: https://rentry.co/lgug
