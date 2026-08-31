@@ -511,17 +511,14 @@ bookmark:
   #   url: https://konachan.com/post
   #   favicon: konachan.png
   - name: 番组计划
-    url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
-    # url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
+    url: https://bgm.tv/group/discover
+    # url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
     favicon: bangumi.png
   # - name: AcFun
   #   url: https://www.acfun.cn
   #   favicon: acfun.png
   # - name: 爱恋动漫
   #   url: https://www.kisssub.org/
-  - name: Pixiv
-    url: https://www.pixiv.net/bookmark_new_illust.php
-    favicon: pixiv.png
   - name: 天使动漫
     url: https://www.tsdm39.com/forum.php
     favicon: tsdm.png
@@ -540,6 +537,12 @@ bookmark:
   - name: Nyaa
     url: https://nyaa.si/
     favicon: nyaa.png
+  - name: Pixiv
+    url: https://www.pixiv.net/bookmark_new_illust.php
+    favicon: pixiv.png
+  - name: 米画师
+    url: https://www.mihuashi.com/artworks?type=subscribe
+    favicon: mihuashi.png
   - name: <b>More</b>
     newTab: true
     url: https://rentry.co/acg
@@ -611,9 +614,6 @@ bookmark:
   - name: MusicBrainZ
     url: https://musicbrainz.org/search
     favicon: musicbrainz.png
-  - name: 米画师
-    url: https://www.mihuashi.com/artworks?type=subscribe
-    favicon: mihuashi.png
   - name: 福利吧
     url: https://fuliba.net
   - name: musicForProgramming
