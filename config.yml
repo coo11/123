@@ -348,6 +348,11 @@ bookmark:
   - name: Markdown
     url: https://markdownlivepreview.com/
     favicon: markdown.png
+  - name: zashboard
+    # url: http://127.0.0.1:9090/ui/
+    url: https://board.zash.run.place/
+    favicon: Zashboard.png
+    faviconAlt: zashboard_d.png
   - name: Speedtest
     url: https://test.ustc.edu.cn/
     # Nanjing University Speed Test
