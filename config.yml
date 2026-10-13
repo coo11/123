@@ -507,9 +507,6 @@ bookmark:
   - name: yande.re
     url: https://yande.re/post
     favicon: yandere.png
-  - name: Kemono
-    url: https://kemono.cr/artists
-    favicon: kemono.png
   # - name: Sankaku
   #   url: https://sankaku.app/zh-CN
   # - name: Konachan
@@ -525,7 +522,9 @@ bookmark:
   # - name: 爱恋动漫
   #   url: https://www.kisssub.org/
   - name: 天使动漫
-    url: https://www.tsdm39.com/forum.php
+    url: https://www.tsdm39.com/home.php
+    # url: https://www.tsdm39.com/forum.php
+    # url: https://www.tsdm39.com/home.php?mod=follow&view=other
     favicon: tsdm.png
   - name: 萌娘百科
     url: https://zh.moegirl.org.cn/Mainpage
