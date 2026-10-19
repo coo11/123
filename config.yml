@@ -228,7 +228,7 @@ bookmark:
   - name: Carbon
     url: https://carbon.now.sh
   - name: Minifier
-    url: https://hm.ehhh.eu.org/
+    url: https://t.ehhh.eu.org/minifier
     favicon: terser.png
   - name: CyberChef
     url: https://gchq.github.io/CyberChef/
@@ -523,6 +523,7 @@ bookmark:
   #   url: https://www.kisssub.org/
   - name: 天使动漫
     url: https://www.tsdm39.com/home.php
+    # url: https://www.tsdm39.com/forum.php?mod=guide&view=newthread
     # url: https://www.tsdm39.com/forum.php
     # url: https://www.tsdm39.com/home.php?mod=follow&view=other
     favicon: tsdm.png
