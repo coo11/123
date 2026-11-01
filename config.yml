@@ -322,6 +322,8 @@ bookmark:
   # - name: ウェブ魚拓
   - name: 魚拓
     url: https://megalodon.jp/
+  - name: TEXTFILES.COM
+    url: http://textfiles.com/
   - name: r12a
     url: https://r12a.github.io/app-encodings/
   - name: AriaNg
