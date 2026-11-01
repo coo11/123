@@ -118,7 +118,7 @@ bookmark:
     url: https://bbs.nga.cn
     favicon: nga.png
   - name: V2EX
-    url: https://www.v2ex.com/?tab=all
+    url: https://v2ex.com/?tab=all
     favicon: v2ex.png
   - name: reddit
     url: https://www.reddit.com
