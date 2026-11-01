@@ -322,8 +322,10 @@ bookmark:
   # - name: ウェブ魚拓
   - name: 魚拓
     url: https://megalodon.jp/
-  - name: TEXTFILES.COM
-    url: http://textfiles.com/
+    favicon: megalodon.png
+  - name: DiscMaster
+    url: https://discmaster.textfiles.com/
+    favicon: discmaster.png
   - name: r12a
     url: https://r12a.github.io/app-encodings/
   - name: AriaNg
@@ -630,6 +632,7 @@ bookmark:
     favicon: musicbrainz.png
   - name: 福利吧
     url: https://fuliba.net
+    favicon: fuliba.png
   - name: musicForProgramming
     url: https://musicforprogramming.net
   - name: Noises.online
