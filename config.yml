@@ -444,6 +444,8 @@ bookmark:
     faviconAlt: github_d.png
   - name: SvgPathEditor
     url: https://yqnn.github.io/svg-path-editor/
+    favicon: svgpatheditor.png
+    faviconAlt: svgpatheditor_d.png
   - name: BoxySVG
     url: https://boxy-svg.com/app
     favicon: boxsvg.png
@@ -493,7 +495,7 @@ bookmark:
   - name: OneDrive
     url: https://onedrive.live.com
     favicon: onedrive.png
-  - name: Wokerss
+  - name: Wokers
     url: https://workers.cloudflare.com/playground
     # url: https://dash.cloudflare.com/?account=workers
     favicon: workers.png
