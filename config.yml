@@ -284,6 +284,7 @@ bookmark:
   #   favicon: twitter.png
   - name: WAIT
     url: https://trace.moe/
+    favicon: wait.png
   - name: 搜图Bot酱
     url: https://soutubot.moe/
   - name: AnimeTrace
