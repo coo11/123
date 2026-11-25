@@ -356,7 +356,6 @@ bookmark:
     # url: http://127.0.0.1:9090/ui/
     url: https://board.zash.run.place/
     favicon: zashboard.png
-    faviconAlt: zashboard_d.png
   - name: Speedtest
     url: https://test.ustc.edu.cn/
     # Nanjing University Speed Test
@@ -365,6 +364,8 @@ bookmark:
     # url: http://speed.bj.10086.cn:3060/
     # 广东电信宽带测速平台
     # url: https://10000.gd.cn/#/speed
+    favicon: speedtest.png
+    faviconAlt: speedtest_d.png
   - name: Text Compare
     url: https://diffsuite.com/zh/
   - name: <b>Index</b>
